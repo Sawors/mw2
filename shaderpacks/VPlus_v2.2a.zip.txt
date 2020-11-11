@@ -1,0 +1,10 @@
+#Wed Nov 11 17:01:07 CET 2020
+ambientOcclusion_enabled=true
+color_preset=5
+custom_water_color=true
+lens_flare=true
+motionblur_enabled=true
+reflections_enabled=true
+shadowMapResolution=3072
+ssgr_enabled=true
+taa_enabled=false

@@ -1,0 +1,6 @@
+#Wed Nov 11 16:24:07 CET 2020
+Colorboost=0.04
+Lens_Flares=true
+Moonlight=0.0015
+shadowMapResolution=2048
+Waving_Entities=false

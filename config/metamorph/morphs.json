@@ -1,0 +1,16 @@
+{
+"minecraft:bat": {
+        "abilities": ["climb","glide", "night_vision", "sun_allergy", "water_allergy"],
+        "action": "jump",
+        "health": 6,
+        "hostile": false,
+		"speed": 0.13
+    },
+	
+"minecraft:blaze": {
+			"abilities": ["climb","glide", "sun_allergy", "water_allergy"],
+			"action": "small_fireball",
+			"health": 10,
+			"hostile": false
+	}
+}

@@ -1,0 +1,221 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:buttons/sanstitre2.png",
+            "posX" : -172,
+            "posY" : 30,
+            "width" : 335,
+            "height" : 75,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/singlebutton7.png",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/multibutton3.png",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/modsbutton3.png",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/optionsbutton3.png",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/quitbutton3.png",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/lang3.png",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/refresh3.png",
+            "posX" : 104,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+
+		"Website":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/website3.png",
+			"hoverText" : "",
+			"alignment" : "top_right",
+            "posX" : -100,
+            "posY" : 2,
+            "width" : 98,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "https://www.saworserv.com"
+            }
+        },
+
+		"Discord":
+        {
+            "text" : "",
+			"texture" : "mainmenu:buttons/discord3.png",
+			"hoverText" : "",
+			"alignment" : "top_left",
+            "posX" : 2,
+            "posY" : 2,
+            "width" : 98,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "https://discord.com/invite/4afp2m2"
+            }	
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		
+        "example":
+        {
+            "text" : "§bUNABRIDGED §e3.6_BETA ",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+		
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 110,
+            "posY" : 90,
+            "color" : -256,
+            "alignment" : "top_center"
+        },
+       
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+					"mainmenu:img1.png",
+					"mainmenu:img2.png",
+					"mainmenu:img3.png",
+					"mainmenu:img4.png",
+					"mainmenu:img5.png",
+					"mainmenu:img6.png",
+					"mainmenu:img7.png",
+					"mainmenu:img8.png",
+					"mainmenu:img9.png",
+					"mainmenu:img10.png",
+					"mainmenu:img11.png",
+					"mainmenu:img12.png",
+					"mainmenu:img13.png",
+					"mainmenu:img14.png",
+					"mainmenu:img15.png",
+					"mainmenu:img16.png",
+					"mainmenu:img17.png",
+					"mainmenu:img18.png",
+					"mainmenu:img19.png",
+					"mainmenu:img21.png",
+					"mainmenu:img22.png"
+							],
+				"displayDuration" : 100,
+				"fadeDuration" : 40,
+				"shuffle" : true
+            }
+        }
+	}
+}

@@ -1,0 +1,3 @@
+Place sound files here in .ogg format.
+All files will be placed in the soundevents: namespace
+If you set the file name to a sound name e.g."chat_recived_sound.ogg" the sound will automatically be set if it is not already set
