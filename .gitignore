@@ -22,3 +22,4 @@ config/InvTweaks.cfg
 config/ichunutil.cfg
 config/craftpresence.properties
 crash-reports/
+disabled-mods/
