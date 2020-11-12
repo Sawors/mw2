@@ -1,7 +1,6 @@
-#Wed Nov 11 17:13:37 CET 2020
+#Thu Nov 12 12:46:15 CET 2020
 BSLVibrance=1.40
 CREPUSCULAR_RAYS=true
 SMOOTH_CLOUDS=true
 TONEMAP=2
-TonemapExposure=1.0
 TonemapWhiteCurve=1.0
