@@ -24,3 +24,4 @@ config/craftpresence.properties
 crash-reports/
 disabled-mods/
 config/craftpresence.properties
+config/jei/worldSettings.cfg
