@@ -1,0 +1,53 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots"
+    ],
+    "modifier": -5
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots"
+	  "betterwithmods:wool_helmet",
+      "betterwithmods:wool_chest",
+      "betterwithmods:wool_leggings",
+      "betterwithmods:wool_boots"
+    ],
+    "modifier": 5
+  },
+  {
+    "names": [
+	  "futuremc:netherite_helmet",
+      "futuremc:netherite_chestplate",
+      "futuremc:netherite_leggings",
+      "futuremc:netherite_boots"
+	  "mod_lavacow:felarmor_helmet",
+	  "mod_lavacow:felarmor_chestplate",
+	  "mod_lavacow:felarmor_leggings",
+	  "mod_lavacow:felarmor_boots"
+    ],
+    "modifier": -7
+  }
+  {
+    "names": [
+      "minecraft:leather_helmet",
+	  "minecraft:leather_chestplate",
+	  "minecraft:leather_leggings",
+	  "minecraft:leather_boots",
+	  "mod_lavacow:faminearmor_helmet",
+	  "mod_lavacow:faminearmor_chestplate",
+	  "mod_lavacow:faminearmor_leggings",
+	  "mod_lavacow:faminearmor_boots",
+	  "",
+	  "",
+	  ""
+    ],
+    "modifier": 1
+  }
+]
