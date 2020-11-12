@@ -15,3 +15,10 @@ config/splash.properties
 config/craftpresence.properties
 config/splash.properties
 config/craftpresence.properties
+usercache.json
+usernamecache.json
+config/jei/worldSettings.cfg
+config/InvTweaks.cfg
+config/ichunutil.cfg
+config/craftpresence.properties
+crash-reports/
