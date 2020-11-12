@@ -1,4 +1,4 @@
-#Thu Nov 12 12:53:04 CET 2020
+#Thu Nov 12 17:56:52 CET 2020
 Colorboost=0.04
 Lens_Flares=true
 MB_strength=0.008
@@ -6,3 +6,7 @@ Moonlight=0.0
 shadowMapResolution=2048
 uFogDensity=20.0
 Waving_Entities=false
+Waving_Fire=false
+Waving_Lava=false
+Waving_Vines=false
+Waving_Water=false
