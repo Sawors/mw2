@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Vanilla_1.15.2_for_1.12.2_optifine_V13.zip","Unity-1.6.5-1.12-YABBandaid.zip"]
+resourcePacks:["Vanilla_1.15.2_for_1.12.2_optifine_V13.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -88,7 +88,7 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :0
-key_Options.Reload:25
+key_Options.Reload:25:ALT
 key_Force Play:24
 key_Options.Shortcut1:0
 key_Options.Shortcut2:0
@@ -102,15 +102,22 @@ key_Options.Ocarina4:203
 key_Options.Ocarina5:157
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_next:0
 key_roots.keybinds.spell_slot_2:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_4:0
+key_roots.keybinds.spell_slot_next:0
 key_roots.keybinds.spell_slot_3:0
 key_roots.keybinds.spell_slot_previous:0
-key_roots.keybinds.spell_slot_4:0
 key_roots.keybinds.spell_slot_5:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -129,13 +136,6 @@ key_quark.emote.dab:12
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -166,7 +166,6 @@ key_keys.vampirism.blood_potion_crafting:48:CONTROL
 key_keys.vampirism.action1:2:ALT
 key_keys.vampirism.action2:3:ALT
 key_key.pickup.item:0
-key_key.reveal:34
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -222,17 +221,17 @@ key_Speak:-97
 key_Gliby's Options Menu:88
 key_key.control:29
 key_Open Skill GUI:21
-soundCategory_master:0.84437084
-soundCategory_music:0.0
+soundCategory_master:0.85000014
+soundCategory_music:1.0
 soundCategory_record:1.0
-soundCategory_weather:0.028169014
+soundCategory_weather:0.35211268
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.26056337
+soundCategory_ds_footsteps:1.0
 soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
