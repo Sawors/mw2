@@ -102,13 +102,13 @@ key_Options.Ocarina4:203
 key_Options.Ocarina5:157
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_1:0
 key_roots.keybinds.spell_slot_next:0
-key_roots.keybinds.spell_slot_5:0
 key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_2:0
+key_roots.keybinds.spell_slot_5:0
 key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_1:0
 key_roots.keybinds.spell_slot_previous:0
+key_roots.keybinds.spell_slot_2:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -116,6 +116,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -134,8 +136,6 @@ key_quark.emote.dab:12
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -222,17 +222,17 @@ key_Speak:-97
 key_Gliby's Options Menu:88
 key_Open Skill GUI:21
 key_key.control:29
-soundCategory_master:0.85000014
-soundCategory_music:1.0
+soundCategory_master:1.0000001
+soundCategory_music:0.70422536
 soundCategory_record:1.0
 soundCategory_weather:0.35211268
-soundCategory_block:1.0
+soundCategory_block:0.75352114
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.5070422
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.5070422
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:1.0
+soundCategory_ds_footsteps:0.3028169
 soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
