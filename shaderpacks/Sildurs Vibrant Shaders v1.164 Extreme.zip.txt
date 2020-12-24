@@ -1,9 +1,12 @@
-#Sun Nov 15 15:37:26 CET 2020
+#Thu Dec 24 17:18:30 CET 2020
 Colorboost=0.04
+Depth_of_Field=true
+Distance_Blur=true
+Dof_Distance_View=512
+DoF_Strength=60
 Lens_Flares=true
 MB_strength=0.008
 Moonlight=0.0
-shadowMapResolution=2048
 SSDO=false
 uFogDensity=20.0
 Waving_Entities=false

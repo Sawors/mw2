@@ -1,5 +1,5 @@
-#Sat Dec 19 14:03:29 CET 2020
-shaderPack=BSL_v7.2.01pre1.zip
+#Thu Dec 24 17:45:44 CET 2020
+shaderPack=Sildurs Vibrant Shaders v1.164 Extreme.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
