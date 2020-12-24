@@ -2,9 +2,7 @@
 craftpresence/
 llibrary/
 logs/
-patchouli_books/
 saves/
-scripts/
 crafttweaker.log
 patchouli_data.json
 config/craftpresence.properties
@@ -22,10 +20,7 @@ config/InvTweaks.cfg
 config/ichunutil.cfg
 config/craftpresence.properties
 crash-reports/
-disabled-mods/
 config/jei/worldSettings.cfg
 config/Guide-API/Guide-API.cfg
 config/ebwizardry/ebwizardry.cfg
 config/craftpresence.properties
-ORIGIN-CREDITS/
-PERFORMANCE_BRANCH/
