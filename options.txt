@@ -9,7 +9,7 @@ guiScale:3
 particles:0
 bobView:false
 anaglyph3d:false
-maxFps:145
+maxFps:120
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:2
+mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
@@ -90,20 +90,13 @@ key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :0
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_previous:0
 key_roots.keybinds.spell_slot_next:0
 key_roots.keybinds.spell_slot_4:0
 key_roots.keybinds.spell_slot_5:0
 key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_previous:0
 key_roots.keybinds.spell_slot_2:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -124,6 +117,13 @@ key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -131,6 +131,13 @@ key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_key.death_history:22
+key_keys.vampirism.action:19
+key_keys.vampirism.suck:47
+key_keys.vampirism.select_skills:25
+key_keys.vampirism.vision:49
+key_keys.vampirism.blood_potion_crafting:48:CONTROL
+key_keys.vampirism.action1:2:ALT
+key_keys.vampirism.action2:3:ALT
 key_key.ebwizardry.next_spell:49
 key_key.ebwizardry.previous_spell:48
 key_key.ebwizardry.spell_1:2:ALT
@@ -147,13 +154,6 @@ key_key.chargeUnicorn:19
 key_key.breatheKirin:34
 key_key.descendPegasus:0
 key_key.ascendPegasus:47
-key_keys.vampirism.action:19
-key_keys.vampirism.suck:47
-key_keys.vampirism.select_skills:25
-key_keys.vampirism.vision:49
-key_keys.vampirism.blood_potion_crafting:48:CONTROL
-key_keys.vampirism.action1:2:ALT
-key_keys.vampirism.action2:3:ALT
 key_key.pickup.item:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -210,8 +210,8 @@ key_Speak:-97
 key_Gliby's Options Menu:88
 key_Open Skill GUI:21
 key_key.control:29
-soundCategory_master:1.0000001
-soundCategory_music:0.70422536
+soundCategory_master:0.50993377
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.35211268
 soundCategory_block:0.75352114

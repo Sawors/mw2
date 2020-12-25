@@ -1,0 +1,11 @@
+#Fri Dec 25 14:10:45 CET 2020
+Fog=false
+Godrays=true
+grays_quality=2
+Refractions=true
+shadowDistance=120.0
+shadowMapResolution=2048
+skyReflection=true
+Waving_Entities=false
+Waving_Fire=false
+Waving_Vines=false

@@ -31,7 +31,7 @@ ofLagometer:true
 ofShowFps:true
 ofAutoSaveTicks:4000
 ofBetterGrass:2
-ofConnectedTextures:1
+ofConnectedTextures:3
 ofWeather:true
 ofSky:true
 ofStars:true
@@ -46,11 +46,11 @@ ofAfLevel:1
 ofProfiler:true
 ofBetterSnow:true
 ofSwampColors:true
-ofRandomEntities:false
+ofRandomEntities:true
 ofSmoothBiomes:true
 ofCustomFonts:true
-ofCustomColors:false
-ofCustomItems:false
+ofCustomColors:true
+ofCustomItems:true
 ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:true
