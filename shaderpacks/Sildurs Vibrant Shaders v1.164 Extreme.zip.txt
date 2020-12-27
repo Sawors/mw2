@@ -1,13 +1,14 @@
-#Fri Dec 25 14:46:37 CET 2020
+#Sun Dec 27 13:53:10 CET 2020
 Colorboost=0.04
 Dof_Distance_View=512
 DoF_Strength=60
 Lens_Flares=true
 MB_strength=0.008
 Moonlight=0.0
+POM=true
 uFogDensity=20.0
-Waving_Entities=false
 Waving_Fire=false
 Waving_Lava=false
 Waving_Vines=false
 Waving_Water=false
+wFogDensity=50.0

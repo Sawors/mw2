@@ -2,9 +2,9 @@ ofFogType:3
 ofFogStart:0.8
 ofMipmapType:3
 ofOcclusionFancy:false
-ofSmoothFps:false
+ofSmoothFps:true
 ofSmoothWorld:true
-ofAoLevel:1.0
+ofAoLevel:0.5
 ofClouds:3
 ofCloudsHeight:0.0
 ofTrees:2
@@ -36,7 +36,7 @@ ofWeather:true
 ofSky:true
 ofStars:true
 ofSunMoon:false
-ofVignette:1
+ofVignette:2
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:false
 ofTime:0
