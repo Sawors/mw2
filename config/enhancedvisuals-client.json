@@ -93,7 +93,7 @@
       }
     },
     "damage": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "bloodDuration": {
         "min": 500,
@@ -176,7 +176,7 @@
       }
     },
     "temperature": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "defaultIntensity": 0,
       "mediumIntensity": 0.2,
