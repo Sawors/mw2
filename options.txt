@@ -90,15 +90,14 @@ key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :0
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_next:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_3:0
-key_roots.keybinds.spell_slot_2:0
 key_roots.keybinds.spell_slot_previous:0
+key_roots.keybinds.spell_slot_2:0
+key_roots.keybinds.spell_slot_1:0
 key_roots.keybinds.spell_slot_5:0
+key_roots.keybinds.spell_slot_next:0
+key_roots.keybinds.spell_slot_4:0
+key_roots.keybinds.spell_slot_3:0
 key_quark.keybind.lockBuilding:37
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,6 +116,7 @@ key_quark.emote.dab:12
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -124,13 +124,13 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_key.auginter.skipAnimation:45
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
-key_key.death_history:22
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:25
@@ -157,6 +157,7 @@ key_key.ascendPegasus:47
 key_key.wearablebackpacks.open:48
 key_key.wings.fly:19
 key_key.pickup.item:0
+key_key.otghud.desc:24
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
