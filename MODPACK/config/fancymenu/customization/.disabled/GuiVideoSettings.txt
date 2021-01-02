@@ -1,0 +1,19 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiVideoSettings
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 522
+  width = 100
+  action = addbutton
+  y = 266
+  label = hh
+  value = 
+  height = 20
+}
+

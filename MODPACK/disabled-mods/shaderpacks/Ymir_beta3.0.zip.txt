@@ -1,0 +1,3 @@
+#Fri Jan 01 23:51:55 CET 2021
+bloomIntensity=0.8
+motionblur_enabled=false
