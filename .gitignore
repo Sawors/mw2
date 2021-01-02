@@ -3,6 +3,7 @@ craftpresence/
 MODPACK/llibrary/
 MODPACK/logs/
 MODPACK/saves/
+!MODPACK/saves/Workshop/
 MODPACK/crafttweaker.log
 MODPACK/patchouli_data.json
 MODPACK/config/craftpresence.properties
