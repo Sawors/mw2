@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/glass_parent",
+	"textures": {
+		"dark": "3d_decoration/3d_glass/magenta_dark",
+		"light": "3d_decoration/3d_glass/magenta_light"
+	}
+}

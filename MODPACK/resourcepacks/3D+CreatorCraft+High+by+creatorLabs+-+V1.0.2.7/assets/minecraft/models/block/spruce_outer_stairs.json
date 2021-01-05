@@ -1,0 +1,7 @@
+{
+    "parent": "block/planks_outer_stairs",
+    "textures": {
+        "light": "3d_blocks/planks_spruce_light",
+        "dark": "3d_blocks/planks_spruce_dark"
+    }
+}

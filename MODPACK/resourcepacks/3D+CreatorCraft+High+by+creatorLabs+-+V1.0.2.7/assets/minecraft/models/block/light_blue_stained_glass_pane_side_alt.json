@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "block/pane_side_alt",
+	"textures": {
+		"dark": "3d_decoration/3d_glass/light_blue_dark",
+		"light": "3d_decoration/3d_glass/light_blue_light",
+		"particle": "3d_decoration/3d_glass/light_blue_dark"
+	}
+}

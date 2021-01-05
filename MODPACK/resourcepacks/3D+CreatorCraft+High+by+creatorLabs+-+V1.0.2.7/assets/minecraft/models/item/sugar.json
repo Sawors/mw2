@@ -1,0 +1,10 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "item/bowl_powder_parent",
+	"textures": {
+		"bowl_light": "3d_misc/3d_sugar_bowl",
+		"bowl_dark": "3d_misc/3d_sugar_bowl_top",
+		"dye": "3d_misc/3d_sugar",
+		"particle": "3d_misc/3d_sugar"
+	}
+}

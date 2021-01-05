@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves/round/parent/2",
+    "textures": {
+        "all": "3d_blocks/leaves/block/leaves_spruce",
+        "round": "3d_blocks/leaves/round/leaves_spruce_round"
+    }
+}

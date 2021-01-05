@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [	 
+		{"model": "crafting_table", "y": 90 },
+        {"model": "crafting_table", "y": 180},
+        {"model": "crafting_table", "y": 270 },	
+        {"model": "crafting_table"}		   
+		]
+		}
+    }
+

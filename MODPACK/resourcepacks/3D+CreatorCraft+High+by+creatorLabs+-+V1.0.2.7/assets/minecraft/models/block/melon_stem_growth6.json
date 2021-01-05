@@ -1,0 +1,184 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"stem": "3d_blocks/melon_stem",
+		"particle": "3d_blocks/melon_stem"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "melon_stem",
+			"from": [ 5, 3, 7.5 ],
+			"to": [ 6, 4, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 5, 7.5, 6, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 5, 7.5, 6, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 10, 12, 11, 13 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 5, 12, 6, 13 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7.5, 12, 8.5, 13 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem1",
+			"from": [ 6, 1, 7.5 ],
+			"to": [ 7, 3, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 7.5, 7, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 6, 7.5, 7, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 9, 13, 10, 15 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 6, 13, 7, 15 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 7.5, 13, 8.5, 15 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem2",
+			"from": [ 7, -1, 7 ],
+			"to": [ 9, 7, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 9, 9 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7, 7, 9, 9 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7, 9, 9, 16 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7, 9, 9, 16 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 7, 9, 9, 16 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7, 9, 9, 16 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem3",
+			"from": [ 7.5, 2, 9 ],
+			"to": [ 8.5, 4, 10 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 6, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 9, 8.5, 10 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 12, 8.5, 14 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 9, 12, 10, 14 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 6, 12, 7, 14 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem4",
+			"from": [ 7.5, 4, 6 ],
+			"to": [ 8.5, 6, 7 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 9, 8.5, 10 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 6, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 10, 8.5, 12 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 6, 10, 7, 12 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 9, 10, 10, 12 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem5",
+			"from": [ 7.5, 4, 10 ],
+			"to": [ 8.5, 5, 11 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 5, 8.5, 6 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 10, 8.5, 11 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 11, 8.5, 12 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 11, 8.5, 12 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 10, 11, 11, 12 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 5, 11, 6, 12 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem6",
+			"from": [ 7.5, 5, 5 ],
+			"to": [ 8.5, 7, 6 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 10, 8.5, 11 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 5, 8.5, 6 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 9, 8.5, 11 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 9, 8.5, 11 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 5, 9, 6, 11 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 10, 9, 11, 11 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem7",
+			"from": [ 7.5, 7, 7 ],
+			"to": [ 8.5, 11, 8 ],
+			"faces": {
+				"up": { "uv": [ 7.5, 7, 8.5, 8 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 5, 8.5, 9 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 5, 8.5, 9 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 7, 5, 8, 9 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 8, 5, 9, 9 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem8",
+			"from": [ 7.5, 9, 6 ],
+			"to": [ 8.5, 12, 7 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 9, 8.5, 10 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 6, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 4, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 4, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 6, 4, 7, 7 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 9, 4, 10, 7 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem9",
+			"from": [ 8, 7, 8 ],
+			"to": [ 9, 10, 9 ],
+			"faces": {
+				"up": { "uv": [ 8, 8, 9, 9 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7, 6, 8, 9 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 8, 6, 9, 9 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 8, 6, 9, 9 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7, 6, 8, 9 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem10",
+			"from": [ 9, 3, 7.5 ],
+			"to": [ 10, 5, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 9, 7.5, 10, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 9, 7.5, 10, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 6, 11, 7, 13 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 9, 11, 10, 13 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7.5, 11, 8.5, 13 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem11",
+			"from": [ 9, 9, 8 ],
+			"to": [ 10, 11, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 7, 10, 8 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 9, 8, 10, 9 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 6, 5, 7, 7 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 9, 5, 10, 7 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 8, 5, 9, 7 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7, 5, 8, 7 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem12",
+			"from": [ 10, 4, 7.5 ],
+			"to": [ 11, 6, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 10, 7.5, 11, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 10, 7.5, 11, 8.5 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 5, 10, 6, 12 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 10, 10, 11, 12 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 7.5, 10, 8.5, 12 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7.5, 10, 8.5, 12 ], "texture": "#stem", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "melon_stem13",
+			"from": [ 10, 10, 8 ],
+			"to": [ 11, 11, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 7, 11, 8 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 10, 8, 11, 9 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 5, 5, 6, 6 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 10, 5, 11, 6 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 7, 5, 8, 6 ], "texture": "#stem", "tintindex": 0 }
+			}
+		}
+	]
+}

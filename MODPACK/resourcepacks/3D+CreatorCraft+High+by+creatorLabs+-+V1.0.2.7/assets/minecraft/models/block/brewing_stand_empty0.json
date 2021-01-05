@@ -1,0 +1,110 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {"stand": "blocks/brewing_stand"},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [12.5, 9, 7.5],
+			"to": [13.5, 13.5, 8.5],
+			"faces": {
+				"north": {
+					"uv": [12, 3, 13, 9],
+					"texture": "#stand"
+				},
+				"east": {"uv": [12, 3, 13, 8], "texture": "#stand"},
+				"south": {
+					"uv": [12, 3, 13, 9],
+					"texture": "#stand"
+				},
+				"west": {"uv": [12, 3, 13, 9], "texture": "#stand"},
+				"up": {
+					"uv": [12, 8, 13, 9],
+					"texture": "#stand",
+					"rotation": 90
+				},
+				"down": {
+					"uv": [12, 8, 13, 9],
+					"texture": "#stand",
+					"rotation": 270
+				}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [7.875, 12.25, 7.25],
+			"to": [13.875, 13.625, 8.75],
+			"faces": {
+				"north": {"uv": [3, 2, 13, 3], "texture": "#stand"},
+				"east": {"uv": [3, 2, 4, 3], "texture": "#stand"},
+				"south": {"uv": [3, 2, 13, 3], "texture": "#stand"},
+				"west": {"uv": [3, 2, 4, 3], "texture": "#stand"},
+				"up": {
+					"uv": [3, 2, 13, 3],
+					"texture": "#stand",
+					"rotation": 180
+				},
+				"down": {"uv": [3, 2, 13, 3], "texture": "#stand"}
+			},
+			"rotation": {
+				"origin": [5.875, 7.25, 8.25],
+				"axis": "y",
+				"angle": 0
+			}
+		},
+		{
+			"name": "cube",
+			"from": [12.5, 13, 7.625],
+			"to": [13.375, 16, 8.5],
+			"faces": {
+				"north": {
+					"uv": [3, 2, 13, 3],
+					"texture": "#stand",
+					"rotation": 90
+				},
+				"east": {
+					"uv": [3, 2, 13, 3],
+					"texture": "#stand",
+					"rotation": 270
+				},
+				"south": {
+					"uv": [3, 2, 13, 3],
+					"texture": "#stand",
+					"rotation": 270
+				},
+				"west": {
+					"uv": [3, 2, 13, 3],
+					"texture": "#stand",
+					"rotation": 90
+				},
+				"up": {
+					"uv": [3, 2, 4, 3],
+					"texture": "#stand",
+					"rotation": 270
+				},
+				"down": {
+					"uv": [3, 2, 4, 3],
+					"texture": "#stand",
+					"rotation": 270
+				}
+			},
+			"rotation": {
+				"origin": [18.375, 11, 8.625],
+				"axis": "z",
+				"angle": 0
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"isOpen": true,
+			"display": {
+				"visibility": true,
+				"export": true,
+				"autouv": true
+			},
+			"children": [2, 1, 0]
+		}
+	]
+}

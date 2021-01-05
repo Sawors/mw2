@@ -1,0 +1,9 @@
+{
+"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "lite_version/cobblestone",
+        "top": "lite_version/cobblestone",
+        "side": "lite_version/cobblestone"
+    }
+}

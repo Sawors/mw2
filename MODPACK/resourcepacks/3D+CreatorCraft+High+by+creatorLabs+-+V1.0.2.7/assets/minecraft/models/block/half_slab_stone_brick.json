@@ -1,0 +1,191 @@
+{
+	"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+	"parent": "block/block",
+	"textures": {
+		"0": "3d_decoration/stonebrick_0",
+		"2": "3d_decoration/stonebrick_1",
+		"particle": "blocks/stonebrick"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#2", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#2", "cullface": "up" },
+				"north": { "uv": [ 0, 8, 16, 16 ], "texture": "#2", "cullface": "north" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "#2", "cullface": "south" },
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#2", "cullface": "west" },
+				"east": { "uv": [ 0, 8, 16, 16 ], "texture": "#2", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "north_Addon1",
+			"from": [ 0, 1, -0.5 ],
+			"to": [ 8, 8, 0 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 8, 0.5 ], "texture": "#0", "cullface": "north" },
+				"up": { "uv": [ 0, 15.5, 8, 16 ], "texture": "#0", "cullface": "north" },
+				"north": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "north" },
+				"west": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "north" },
+				"east": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "north" }
+			}
+		},
+		{
+			"__comment": "north_Addon2",
+			"from": [ 9, 1, -0.5 ],
+			"to": [ 16, 8, 0 ],
+			"faces": {
+				"down": { "uv": [ 9, 0, 16, 0.5 ], "texture": "#0", "cullface": "north" },
+				"up": { "uv": [ 9, 15.5, 16, 16 ], "texture": "#0", "cullface": "north" },
+				"north": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "north" },
+				"west": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "north" },
+				"east": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "north" }
+			}
+		},
+		{
+			"__comment": "east_Addon1",
+			"from": [ 16, 1, 9 ],
+			"to": [ 16.5, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0.5, 7 ], "texture": "#0", "cullface": "east" },
+				"up": { "uv": [ 0, 9, 0.5, 16 ], "texture": "#0", "cullface": "east" },
+				"north": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "east" },
+				"south": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "east" },
+				"east": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "east_Addon2",
+			"from": [ 16, 1, 0 ],
+			"to": [ 16.5, 8, 8 ],
+			"faces": {
+				"down": { "uv": [ 0, 8, 0.5, 16 ], "texture": "#0", "cullface": "east" },
+				"up": { "uv": [ 0, 0, 0.5, 8 ], "texture": "#0", "cullface": "east" },
+				"north": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "east" },
+				"south": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "east" },
+				"east": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "south_Addon1",
+			"from": [ 0, 1, 16 ],
+			"to": [ 7.000032, 8, 16.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 15.5, 7, 16 ], "texture": "#0", "cullface": "south" },
+				"up": { "uv": [ 0, 0, 7, 0.5 ], "texture": "#0", "cullface": "south" },
+				"south": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "south" },
+				"west": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "south" },
+				"east": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "south" }
+			}
+		},
+		{
+			"__comment": "south_Addon2",
+			"from": [ 8, 1, 16 ],
+			"to": [ 16, 8, 16.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 15.5, 16, 16 ], "texture": "#0", "cullface": "south" },
+				"up": { "uv": [ 8, 0, 16, 0.5 ], "texture": "#0", "cullface": "south" },
+				"south": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "south" },
+				"west": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "south" },
+				"east": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "south" }
+			}
+		},
+		{
+			"__comment": "west_Addon",
+			"from": [ -0.5, 1, -0.0001 ],
+			"to": [ 6.198883E-05, 8, 6.999993 ],
+			"faces": {
+				"down": { "uv": [ 0, 9, 6.198883E-05, 16 ], "texture": "#0", "cullface": "west" },
+				"up": { "uv": [ 0, 0, 6.198883E-05, 7 ], "texture": "#0", "cullface": "west" },
+				"north": { "uv": [ 15.99994, 8, 16, 15 ], "texture": "#0", "cullface": "west" },
+				"south": { "uv": [ 0, 8, 6.198883E-05, 15 ], "texture": "#0", "cullface": "west" },
+				"west": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "west" }
+			}
+		},
+		{
+			"__comment": "west_Addon1",
+			"from": [ -0.5, 1, 8 ],
+			"to": [ 0, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 15.5, 0, 16, 8 ], "texture": "#0", "cullface": "west" },
+				"up": { "uv": [ 15.5, 8, 16, 16 ], "texture": "#0", "cullface": "west" },
+				"north": { "uv": [ 0, 8, 0.5, 15 ], "texture": "#0", "cullface": "west" },
+				"south": { "uv": [ 15.5, 8, 16, 15 ], "texture": "#0", "cullface": "west" },
+				"west": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "west" }
+			}
+		},
+		{
+			"__comment": "top_Addon",
+			"from": [ 0, 8, 8 ],
+			"to": [ 7, 8.5, 15 ],
+			"faces": {
+				"up": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "up" },
+				"north": { "uv": [ 9, 7.5, 16, 8 ], "texture": "#0", "cullface": "up" },
+				"south": { "uv": [ 0, 7.5, 7, 8 ], "texture": "#0", "cullface": "up" },
+				"west": { "uv": [ 8, 7.5, 15, 8 ], "texture": "#0", "cullface": "up" },
+				"east": { "uv": [ 1, 7.5, 8, 8 ], "texture": "#0", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "top_Addon1",
+			"from": [ 8, 8, 8 ],
+			"to": [ 16, 8.5, 15 ],
+			"faces": {
+				"up": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "up" },
+				"north": { "uv": [ 0, 7.5, 8, 8 ], "texture": "#0", "cullface": "up" },
+				"south": { "uv": [ 8, 7.5, 16, 8 ], "texture": "#0", "cullface": "up" },
+				"west": { "uv": [ 8, 7.5, 15, 8 ], "texture": "#0", "cullface": "up" },
+				"east": { "uv": [ 1, 7.5, 8, 8 ], "texture": "#0", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "top_Addon2",
+			"from": [ 0, 8, 0 ],
+			"to": [ 15, 8.5, 7 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 15, 7 ], "texture": "#0", "cullface": "up" },
+				"north": { "uv": [ 1, 7.5, 16, 8 ], "texture": "#0", "cullface": "up" },
+				"south": { "uv": [ 0, 7.5, 15, 8 ], "texture": "#0", "cullface": "up" },
+				"west": { "uv": [ 0, 7.5, 7, 8 ], "texture": "#0", "cullface": "up" },
+				"east": { "uv": [ 9, 7.5, 16, 8 ], "texture": "#0", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "down_Addon",
+			"from": [ 0, -0.5, 1 ],
+			"to": [ 7, 0, 8 ],
+			"faces": {
+				"down": { "uv": [ 0, 8, 7, 15 ], "texture": "#0", "cullface": "down" },
+				"north": { "uv": [ 9, 0, 16, 0.5 ], "texture": "#0", "cullface": "down" },
+				"south": { "uv": [ 0, 0, 7, 0.5 ], "texture": "#0", "cullface": "down" },
+				"west": { "uv": [ 1, 0, 8, 0.5 ], "texture": "#0", "cullface": "down" },
+				"east": { "uv": [ 8, 0, 15, 0.5 ], "texture": "#0", "cullface": "down" }
+			}
+		},
+		{
+			"__comment": "down_Addon1",
+			"from": [ 8, -0.5, 1 ],
+			"to": [ 16, 0, 8 ],
+			"faces": {
+				"down": { "uv": [ 8, 8, 16, 15 ], "texture": "#0", "cullface": "down" },
+				"north": { "uv": [ 0, 0, 8, 0.5 ], "texture": "#0", "cullface": "down" },
+				"south": { "uv": [ 8, 0, 16, 0.5 ], "texture": "#0", "cullface": "down" },
+				"west": { "uv": [ 1, 0, 8, 0.5 ], "texture": "#0", "cullface": "down" },
+				"east": { "uv": [ 8, 0, 15, 0.5 ], "texture": "#0", "cullface": "down" }
+			}
+		},
+		{
+			"__comment": "down_Addon2",
+			"from": [ 0, -0.5, 9 ],
+			"to": [ 15, 0, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 15, 7 ], "texture": "#0", "cullface": "down" },
+				"north": { "uv": [ 1, 0, 16, 0.5 ], "texture": "#0", "cullface": "down" },
+				"south": { "uv": [ 0, 0, 15, 0.5 ], "texture": "#0", "cullface": "down" },
+				"west": { "uv": [ 9, 0, 16, 0.5 ], "texture": "#0", "cullface": "down" },
+				"east": { "uv": [ 0, 0, 7, 0.5 ], "texture": "#0", "cullface": "down" }
+			}
+		}
+	]
+}

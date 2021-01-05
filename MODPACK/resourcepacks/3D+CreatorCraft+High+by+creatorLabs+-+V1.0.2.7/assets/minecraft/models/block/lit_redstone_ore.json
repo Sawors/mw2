@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/ore",
+	"textures": {
+		"stone": "3d_blocks/stone",
+		"ore": "3d_blocks/redstone_ore"
+	}
+}

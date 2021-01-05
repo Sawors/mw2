@@ -1,0 +1,43 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#all",
+		"all": "#all",
+		"round": "#round"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "down", "tintindex": 0 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "up", "tintindex": 0 },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "north", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "south", "tintindex": 0 },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "west", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "cullface": "east", "tintindex": 0 }
+			}
+		},
+		{
+			"from": [ -6.25, -8, 15.375 ],
+			"to": [ 25.75, 24, 15.376 ],
+			"rotation": { "origin": [ -6.25, -8, 16.375 ], "axis": "y", "angle": 22.5, "rescale": true },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#round", "tintindex": 1 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#round", "tintindex": 1 }
+			}
+		},
+		{
+			"from": [ 2.75, -8, -5.625 ],
+			"to": [ 2.751, 24, 26.375 ],
+			"rotation": { "origin": [ 2.75, -8, -5.625 ], "axis": "y", "angle": 22.5, "rescale": true },
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#round", "tintindex": 1 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#round", "tintindex": 1 }
+			}
+		}
+	]
+}

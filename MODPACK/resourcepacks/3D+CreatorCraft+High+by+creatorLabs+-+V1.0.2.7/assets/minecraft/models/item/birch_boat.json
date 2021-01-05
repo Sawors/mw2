@@ -1,0 +1,9 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "item/boat",
+	"textures": {
+		"dark": "3d_blocks/planks_birch_dark",
+		"particle": "blocks/planks_birch",
+		"light": "3d_blocks/planks_birch_light"
+	}
+}

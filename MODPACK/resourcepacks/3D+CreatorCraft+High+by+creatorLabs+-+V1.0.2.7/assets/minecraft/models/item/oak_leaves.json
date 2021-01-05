@@ -1,0 +1,6 @@
+{
+    "parent": "item/leaves",
+    "textures": {
+        "all": "3d_blocks/leaves/block/leaves_acacia"
+    }
+}

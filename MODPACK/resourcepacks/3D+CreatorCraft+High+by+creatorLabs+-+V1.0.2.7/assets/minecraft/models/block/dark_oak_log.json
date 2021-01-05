@@ -1,0 +1,10 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/log",
+	"textures": {
+		"sides": "3d_blocks/log/log_big_oak",
+		"light": "3d_blocks/log/log_big_oak_light",
+		"dark": "3d_blocks/log/log_big_oak_dark",
+		"wood": "3d_blocks/log/log_big_oak_wood"
+	}
+}

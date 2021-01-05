@@ -1,0 +1,97 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"ambientocclusion": true,
+	"textures": {
+		"0": "blocks/piston_bottom",
+		"1": "blocks/piston_side",
+		"2": "blocks/piston_inner",
+		"particle": "blocks/piston_side"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 0, 4],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {
+					"uv": [0, 4, 16, 16],
+					"texture": "#1",
+					"cullface": "east",
+					"rotation": 90
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0",
+					"cullface": "south"
+				},
+				"west": {
+					"uv": [0, 4, 16, 16],
+					"texture": "#1",
+					"cullface": "west",
+					"rotation": 270
+				},
+				"up": {
+					"uv": [0, 4, 16, 16],
+					"texture": "#1",
+					"cullface": "up"
+				},
+				"down": {
+					"uv": [0, 4, 16, 16],
+					"texture": "#1",
+					"cullface": "down",
+					"rotation": 180
+				}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [5, 5, 3],
+			"to": [6, 11, 4],
+			"faces": {
+				"north": {"uv": [5, 5, 6, 11], "texture": "#2"},
+				"east": {"uv": [5, 5, 6, 11], "texture": "#2"},
+				"west": {"uv": [5, 5, 6, 11], "texture": "#2"},
+				"up": {"uv": [5, 5, 6, 6], "texture": "#2"},
+				"down": {"uv": [5, 5, 6, 6], "texture": "#2"}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [10, 5, 3],
+			"to": [11, 11, 4],
+			"faces": {
+				"north": {"uv": [10, 5, 11, 11], "texture": "#2"},
+				"east": {"uv": [10, 5, 11, 11], "texture": "#2"},
+				"west": {"uv": [10, 5, 11, 11], "texture": "#2"},
+				"up": {"uv": [7, 5, 8, 6], "texture": "#2"},
+				"down": {"uv": [7, 5, 8, 6], "texture": "#2"}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [6, 5, 3],
+			"to": [10, 6, 4],
+			"faces": {
+				"north": {"uv": [6, 10, 10, 11], "texture": "#2"},
+				"up": {"uv": [6, 5, 10, 6], "texture": "#2"},
+				"down": {"uv": [6, 5, 10, 6], "texture": "#2"}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [6, 10, 3],
+			"to": [10, 11, 4],
+			"faces": {
+				"north": {"uv": [6, 5, 10, 6], "texture": "#2"},
+				"up": {"uv": [6, 5, 10, 6], "texture": "#2"},
+				"down": {"uv": [6, 5, 10, 6], "texture": "#2"}
+			},
+			"type": "cube"
+		}
+	]
+}

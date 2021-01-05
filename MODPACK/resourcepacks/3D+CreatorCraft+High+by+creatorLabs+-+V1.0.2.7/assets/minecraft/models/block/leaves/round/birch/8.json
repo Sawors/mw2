@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves/round/parent/8",
+    "textures": {
+        "all": "3d_blocks/leaves/block/leaves_birch",
+        "round": "3d_blocks/leaves/round/leaves_birch_round"
+    }
+}

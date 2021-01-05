@@ -1,0 +1,26 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "dirt/all/0" },
+            { "model": "dirt/all/0", "y": 90 },
+            { "model": "dirt/all/0", "y": 180 },
+            { "model": "dirt/all/0", "y": 270 },
+			{ "model": "dirt/all/1" },
+            { "model": "dirt/all/1", "y": 90 },
+            { "model": "dirt/all/1", "y": 180 },
+            { "model": "dirt/all/1", "y": 270 },
+			{ "model": "dirt/all/2" },
+            { "model": "dirt/all/2", "y": 90 },
+            { "model": "dirt/all/2", "y": 180 },
+            { "model": "dirt/all/2", "y": 270 },
+			{ "model": "dirt/all/3" },
+            { "model": "dirt/all/3", "y": 90 },
+            { "model": "dirt/all/3", "y": 180 },
+            { "model": "dirt/all/3", "y": 270 },
+			{ "model": "dirt/all/4" },
+            { "model": "dirt/all/4", "y": 90 },
+            { "model": "dirt/all/4", "y": 180 },
+            { "model": "dirt/all/4", "y": 270 }
+        ]
+    }
+}

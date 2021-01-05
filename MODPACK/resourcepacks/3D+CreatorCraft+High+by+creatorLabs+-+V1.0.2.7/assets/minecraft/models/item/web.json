@@ -1,0 +1,10 @@
+{
+"parent": "block/web",
+ "display": {
+        "gui": {
+            "rotation": [ 10, 20, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.8, 0.8, 0.8 ]
+        }
+		}
+}

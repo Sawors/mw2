@@ -1,0 +1,6 @@
+{
+    "parent": "item/pressure_plate",
+    "textures": {
+        "texture": "blocks/gold_block"
+    }
+}

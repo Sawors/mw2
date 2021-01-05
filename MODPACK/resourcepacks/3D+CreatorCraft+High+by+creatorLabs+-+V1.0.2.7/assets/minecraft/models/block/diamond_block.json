@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/light_dark_block_inner",
+	"textures": {
+		"light": "3d_blocks/diamond_light",
+		"dark": "3d_blocks/diamond_dark"
+	}
+}

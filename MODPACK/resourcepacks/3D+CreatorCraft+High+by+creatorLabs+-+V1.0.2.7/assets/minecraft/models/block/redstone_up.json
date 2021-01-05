@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "3d_redstone/3d_redstone_dust",
+		"particle": "3d_redstone/3d_redstone_dust"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [7, 1, 0],
+			"to": [9, 17, 1],
+			"faces": {
+				"north": {
+					"uv": [9, 0, 11, 16],
+					"texture": "#0",
+					"tintindex": 0,
+					"cullface": "north"
+				},
+				"east": {
+					"uv": [4, 0, 5, 16],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [5, 0, 7, 16],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [12, 0, 13, 16],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [8, 11, 10, 12],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [11, 7, 13, 8],
+					"texture": "#0",
+					"tintindex": 0
+				}
+			},
+			"type": "cube"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"edge": "3d_decoration/3d_iron_bars",
+		"particle": "3d_decoration/3d_iron_bars"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6.499361, 0.000620694, 6.500412 ],
+			"to": [ 9.499361, 1.000621, 9.500412 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#edge" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#edge" },
+				"north": { "uv": [ 6.5, 14.999, 9.5, 15.999 ], "texture": "#edge" },
+				"south": { "uv": [ 6.5, 14.999, 9.5, 15.999 ], "texture": "#edge" },
+				"west": { "uv": [ 6.5, 14.999, 9.5, 15.999 ], "texture": "#edge" },
+				"east": { "uv": [ 6.5, 14.999, 9.5, 15.999 ], "texture": "#edge" }
+			}
+		},
+		{
+			"from": [ 6.500823, 14.99973, 6.499074 ],
+			"to": [ 9.500824, 15.99973, 9.499074 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#edge" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#edge" },
+				"north": { "uv": [ 6.5, 0.001000404, 9.5, 1.001 ], "texture": "#edge" },
+				"south": { "uv": [ 6.5, 0.001000404, 9.5, 1.001 ], "texture": "#edge" },
+				"west": { "uv": [ 6.5, 0.001000404, 9.5, 1.001 ], "texture": "#edge" },
+				"east": { "uv": [ 6.5, 0.001000404, 9.5, 1.001 ], "texture": "#edge" }
+			}
+		}
+	]
+}

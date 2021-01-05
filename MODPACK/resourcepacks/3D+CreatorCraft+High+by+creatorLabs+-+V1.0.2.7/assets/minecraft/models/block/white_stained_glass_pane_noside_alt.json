@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_noside_alt",
+    "textures": {
+        "light": "3d_decoration/3d_glass/white_light",
+		"dark": "3d_decoration/3d_glass/white_dark"
+    }
+}

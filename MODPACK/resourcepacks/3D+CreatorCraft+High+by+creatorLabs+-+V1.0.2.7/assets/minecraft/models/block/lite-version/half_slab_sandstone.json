@@ -1,0 +1,25 @@
+{
+	"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+	"parent": "block/block",
+	"textures": {
+		"particle": "3d_blocks/sandstone_light",
+		"dark": "3d_blocks/sandstone_dark",
+		"light": "3d_blocks/sandstone_light",
+		"sandstone": "lite_version/sandstone"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "main",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#dark", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#light", "cullface": "up" },
+				"north": { "uv": [ 0, 8, 16, 16 ], "texture": "#sandstone", "cullface": "north" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "#sandstone", "cullface": "south" },
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#sandstone", "cullface": "west" },
+				"east": { "uv": [ 0, 8, 16, 16 ], "texture": "#sandstone", "cullface": "east" }
+			}
+		}
+	]
+}

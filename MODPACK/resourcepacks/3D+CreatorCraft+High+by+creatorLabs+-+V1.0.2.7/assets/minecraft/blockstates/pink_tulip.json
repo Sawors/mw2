@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [	 
+		{"model": "tulip_pink", "y": 90 },
+        {"model": "tulip_pink", "y": 180},
+        {"model": "tulip_pink", "y": 270 },	
+        {"model": "tulip_pink"}		   
+		]
+		}
+    }
+

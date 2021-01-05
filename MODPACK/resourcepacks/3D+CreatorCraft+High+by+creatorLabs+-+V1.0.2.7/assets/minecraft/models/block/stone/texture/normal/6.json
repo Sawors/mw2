@@ -1,0 +1,8 @@
+
+{
+"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "3d_blocks/stone/alts/6"
+    }
+}

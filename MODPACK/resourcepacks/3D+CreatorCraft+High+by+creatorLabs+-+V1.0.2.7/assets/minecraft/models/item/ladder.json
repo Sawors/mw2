@@ -1,0 +1,39 @@
+{
+	"parent": "block/ladder",
+	
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.4, 0.4, 0.4],
+			"translation": [0, 2, -3],
+			"rotation": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.4, 0.4, 0.4],
+			"rotation": [0, 0, 0],
+			"translation": [0, 2, -3]
+		},
+		"firstperson_righthand": {
+			"scale": [0.6, 0.6, 0.6],
+			"translation": [4.5, 0, -7],
+			"rotation": [-26, 7, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.6, 0.6, 0.6],
+			"rotation": [-26, 7, 1],
+			"translation": [3.5, 0, -6]
+		},
+		"ground": {
+			"scale": [0.35, 0.35, 0.35],
+			"translation": [0, 3.5, -2]
+		},
+		"fixed": {
+			"scale": [0.825, 0.825, 0.825],
+			"translation": [0, 0, -6]
+		},
+		"gui": {
+			"scale": [0.8, 0.8, 0.8],
+			"rotation": [30, -151, 0],
+			"translation": [2.5, -2.5, 0]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/log",
+	"textures": {
+		"sides": "3d_blocks/log/log_spruce",
+		"light": "3d_blocks/log/log_spruce_light",
+		"dark": "3d_blocks/log/log_spruce_dark",
+		"wood": "3d_blocks/log/log_spruce_wood"
+	}
+}

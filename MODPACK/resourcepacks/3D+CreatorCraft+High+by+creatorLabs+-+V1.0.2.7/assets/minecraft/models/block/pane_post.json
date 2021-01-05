@@ -1,0 +1,25 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"dark": "#dark",
+		"particle": "#dark"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6.5008, 15.0008, 6.5008 ],
+			"to": [ 9.500799, 16.0008, 9.500799 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#dark" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#dark" }
+			}
+		},
+		{
+			"from": [ 6.5, 0.0008, 6.4993 ],
+			"to": [ 9.5, 1.0008, 9.4993 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#dark" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#dark" }
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+    "variants": {
+        "normal": [
+            { "model": "diorite/smooth/0" },
+			{ "model": "diorite/smooth/1" },
+			{ "model": "diorite/smooth/2" },
+			{ "model": "diorite/smooth/3" },
+			{ "model": "diorite/smooth/4" },
+			{ "model": "diorite/smooth/5" },
+			{ "model": "diorite/smooth/6" },
+			{ "model": "diorite/smooth/7" },
+			{ "model": "diorite/smooth/8" },
+			{ "model": "diorite/smooth/9" },
+			{ "model": "diorite/smooth/10" },
+			{ "model": "diorite/smooth/11" },
+			{ "model": "diorite/smooth/12" },
+			{ "model": "diorite/smooth/13" },
+			{ "model": "diorite/smooth/14" },
+			{ "model": "diorite/smooth/15" }
+            
+        ]
+    }
+}

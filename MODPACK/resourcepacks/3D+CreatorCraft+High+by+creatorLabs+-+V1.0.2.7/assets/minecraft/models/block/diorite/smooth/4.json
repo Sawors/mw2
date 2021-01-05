@@ -1,0 +1,9 @@
+
+{
+"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+    "parent": "block/diorite/smooth_stone",
+    "textures": {
+        "light": "3d_blocks/diorite/smooth/4",
+		"dark": "3d_blocks/diorite/smooth_dark/4"
+    }
+}

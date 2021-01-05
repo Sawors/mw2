@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/smooth_stone",
+	"textures": {
+		"texture": "blocks/stone_granite_smooth"
+	}
+}

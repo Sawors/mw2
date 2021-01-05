@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "item/stained_glass_pane",
+	"ambientocclusion": false,
+	"textures": {
+		"dark": "3d_decoration/3d_glass/gray_dark",
+		"light": "3d_decoration/3d_glass/gray_light",
+		"particle": "3d_decoration/3d_glass/gray_dark"
+	}
+}

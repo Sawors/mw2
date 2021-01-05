@@ -1,0 +1,109 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio - Download at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+	"parent": "item/parents/flower",
+	"textures": {
+		"1": "3d_decoration/3d_flower_allium",
+		"2": "3d_decoration/3d_flower_stem_1",
+		"particle": "blocks/flower_allium"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 7.5, 0, 7.5 ],
+			"to": [ 8.5, 8, 8.5 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 9, 9, 10, 10 ], "texture": "#2" },
+				"up": { "uv": [ 9, 6, 10, 7 ], "texture": "#2" },
+				"north": { "uv": [ 6, 8, 7, 16 ], "texture": "#2" },
+				"south": { "uv": [ 9, 8, 10, 16 ], "texture": "#2" },
+				"west": { "uv": [ 6, 8, 7, 16 ], "texture": "#2" },
+				"east": { "uv": [ 10, 16, 9, 8 ], "texture": "#2" }
+			}
+		},
+		{
+			"from": [ 6, 9, 6 ],
+			"to": [ 10, 13, 10 ],
+			"rotation": { "origin": [ 8, 9, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 6, 6, 10, 10 ], "texture": "#1" },
+				"up": { "uv": [ 6, 6, 10, 10 ], "texture": "#1" },
+				"north": { "uv": [ 6, 3, 10, 7 ], "texture": "#1" },
+				"south": { "uv": [ 6, 3, 10, 7 ], "texture": "#1" },
+				"west": { "uv": [ 6, 3, 10, 7 ], "texture": "#1" },
+				"east": { "uv": [ 10, 7, 6, 3 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 5.15, 10, 6.15 ],
+			"to": [ 6.15, 12, 9.15 ],
+			"rotation": { "origin": [ 7.65, 9.5, 7.65 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 5, 6.5, 6, 9.5 ], "texture": "#1" },
+				"up": { "uv": [ 5, 6.5, 6, 9.5 ], "texture": "#1" },
+				"north": { "uv": [ 10, 4, 11, 6 ], "texture": "#1" },
+				"south": { "uv": [ 5, 4, 6, 6 ], "texture": "#1" },
+				"west": { "uv": [ 6.5, 4, 9.5, 6 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 6.5, 13, 6.5 ],
+			"to": [ 9.5, 14, 9.5 ],
+			"rotation": { "origin": [ 8, 9, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#1" },
+				"north": { "uv": [ 6.5, 2, 9.5, 3 ], "texture": "#1" },
+				"south": { "uv": [ 6.5, 2, 9.5, 3 ], "texture": "#1" },
+				"west": { "uv": [ 6.5, 2, 9.5, 3 ], "texture": "#1" },
+				"east": { "uv": [ 9.5, 3, 6.5, 2 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 6.5, 8, 6.5 ],
+			"to": [ 9.5, 9, 9.5 ],
+			"rotation": { "origin": [ 8, 8.5, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#1" },
+				"north": { "uv": [ 6.5, 7, 9.5, 8 ], "texture": "#1" },
+				"south": { "uv": [ 6.5, 7, 9.5, 8 ], "texture": "#1" },
+				"west": { "uv": [ 6.5, 7, 9.5, 8 ], "texture": "#1" },
+				"east": { "uv": [ 9.5, 8, 6.5, 7 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 9.849999, 10, 6.15 ],
+			"to": [ 10.85, 12, 9.15 ],
+			"rotation": { "origin": [ 8.35, 9.5, 7.65 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 9.85, 6.85, 10.85, 9.85 ], "texture": "#1" },
+				"up": { "uv": [ 9.85, 6.15, 10.85, 9.15 ], "texture": "#1" },
+				"north": { "uv": [ 5.15, 4, 6.15, 6 ], "texture": "#1" },
+				"south": { "uv": [ 9.85, 4, 10.85, 6 ], "texture": "#1" },
+				"east": { "uv": [ 9.85, 6, 6.85, 4 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 9.849999, 10, 6.85 ],
+			"to": [ 10.85, 12, 9.85 ],
+			"rotation": { "origin": [ 8.35, 9.5, 8.35 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 9.85, 9.85, 10.85, 6.85 ], "texture": "#1" },
+				"up": { "uv": [ 9.85, 6.85, 10.85, 9.85 ], "texture": "#1" },
+				"north": { "uv": [ 10.85, 4, 9.85, 6 ], "texture": "#1" },
+				"south": { "uv": [ 6.15, 4, 5.15, 6 ], "texture": "#1" },
+				"east": { "uv": [ 9.15, 6, 6.15, 4 ], "texture": "#1" }
+			}
+		},
+		{
+			"from": [ 5.15, 10, 6.85 ],
+			"to": [ 6.15, 12, 9.85 ],
+			"rotation": { "origin": [ 7.65, 9.5, 8.35 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 5.15, 6.15, 6.15, 9.15 ], "texture": "#1" },
+				"up": { "uv": [ 5.15, 6.85, 6.15, 9.85 ], "texture": "#1" },
+				"north": { "uv": [ 9.85, 4, 10.85, 6 ], "texture": "#1" },
+				"south": { "uv": [ 5.15, 4, 6.15, 6 ], "texture": "#1" },
+				"west": { "uv": [ 6.85, 4, 9.85, 6 ], "texture": "#1" }
+			}
+		}
+	]
+}

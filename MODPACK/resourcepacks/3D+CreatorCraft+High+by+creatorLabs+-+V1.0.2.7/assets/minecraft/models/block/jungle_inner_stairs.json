@@ -1,0 +1,7 @@
+{
+    "parent": "block/planks_inner_stairs",
+    "textures": {
+        "light": "3d_blocks/planks_jungle_light",
+        "dark": "3d_blocks/planks_jungle_dark"
+    }
+}

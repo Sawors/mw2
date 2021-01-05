@@ -1,0 +1,7 @@
+{
+   "__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+   "parent": "block/cube_all",
+   "textures": {
+   "all": "3d_blocks/end_stone"
+   }
+}

@@ -1,0 +1,146 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"stone": "3d_blocks/stone_slab_light",
+		"mesh_atlas": "3d_blocks/planks_oak_light"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "plate",
+			"from": [ 2, -6, 2 ],
+			"to": [ 14, -5, 14 ],
+			"faces": {
+				"down": { "uv": [ 2, 2, 14, 14 ], "texture": "#stone" },
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#stone" },
+				"north": { "uv": [ 2, 5, 14, 6 ], "texture": "#stone" },
+				"south": { "uv": [ 2, 5, 14, 6 ], "texture": "#stone" },
+				"west": { "uv": [ 2, 5, 14, 6 ], "texture": "#stone" },
+				"east": { "uv": [ 2, 5, 14, 6 ], "texture": "#stone" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 2, 15, 7 ],
+			"to": [ 14, 17, 9 ],
+			"faces": {
+				"down": { "uv": [ 2, 7, 14, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 2, 7, 14, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 2, 9, 14, 11 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 2, 9, 14, 11 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 9, 9, 11 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 9, 9, 11 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 6, 7 ],
+			"to": [ 12, 8, 9 ],
+			"faces": {
+				"down": { "uv": [ 4, 7, 12, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 4, 7, 12, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 4, 2, 12, 4 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 4, 2, 12, 4 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 2, 9, 4 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 2, 9, 4 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5, -5, 7 ],
+			"to": [ 7, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 5, 7, 7, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 5, 7, 7, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 9, 4, 11, 15 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 5, 4, 7, 15 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 4, 9, 15 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 4, 9, 15 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5, 8, 7 ],
+			"to": [ 7, 15, 9 ],
+			"faces": {
+				"down": { "uv": [ 5, 7, 7, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 5, 7, 7, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 9, 0, 11, 2 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 5, 0, 7, 2 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 0, 9, 2 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 0, 9, 2 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7, 17, 7 ],
+			"to": [ 9, 23, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 7, 12, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 10, 7, 12, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 4, 3, 6, 9 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 10, 3, 12, 9 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 3, 9, 9 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 3, 9, 9 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 9, -5, 7 ],
+			"to": [ 11, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 7, 11, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 9, 7, 11, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 5, 4, 7, 15 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 9, 4, 11, 15 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 4, 9, 15 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 4, 9, 15 ], "texture": "#mesh_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 9, 8, 7 ],
+			"to": [ 11, 15, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 7, 11, 9 ], "texture": "#mesh_atlas" },
+				"up": { "uv": [ 9, 7, 11, 9 ], "texture": "#mesh_atlas" },
+				"north": { "uv": [ 5, 0, 7, 2 ], "texture": "#mesh_atlas" },
+				"south": { "uv": [ 9, 0, 11, 2 ], "texture": "#mesh_atlas" },
+				"west": { "uv": [ 7, 0, 9, 2 ], "texture": "#mesh_atlas" },
+				"east": { "uv": [ 7, 0, 9, 2 ], "texture": "#mesh_atlas" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, 0.1, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, 0.1, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ -5, -19, 8 ],
+			"translation":  [ 1.9, 4, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ -5, -19, 8 ],
+			"translation":  [ 1.9, 4, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 45, 0 ],
+			"translation":  [ 0, 0.7, 0 ],
+			"scale":  [ 0.5129, 0.5129, 0.5129 ]
+		},
+		"ground": {
+			"translation":  [ 0, 6.9565, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, 0.6956 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "block/fence_inventory",
+	"textures": {
+		"light": "3d_blocks/planks_spruce_light",
+		"dark": "3d_blocks/planks_spruce_dark"
+	}
+}

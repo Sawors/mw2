@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "3d_decoration/double_plant_fern_top"
+    }
+}

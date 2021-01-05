@@ -1,0 +1,9 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/grass/flower/parent",
+	"textures": {
+		"dirt": "3d_blocks/dirt/alts/2",
+		"grass": "3d_blocks/grass/top_alts/12",
+		"flower": "3d_blocks/grass/flower/3"
+	}
+}

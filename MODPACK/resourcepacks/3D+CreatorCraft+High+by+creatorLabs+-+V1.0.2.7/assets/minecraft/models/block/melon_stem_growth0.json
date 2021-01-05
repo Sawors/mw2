@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"stem": "3d_blocks/melon_stem",
+		"particle": "3d_blocks/melon_stem"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "melon_stem8",
+			"from": [ 7.5, -1, 6 ],
+			"to": [ 8.5, 0, 7 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 9, 8.5, 10 ], "texture": "#stem", "tintindex": 0 },
+				"up": { "uv": [ 7.5, 6, 8.5, 7 ], "texture": "#stem", "tintindex": 0 },
+				"north": { "uv": [ 7.5, 0, 8.5, 1 ], "texture": "#stem", "tintindex": 0 },
+				"south": { "uv": [ 7.5, 0, 8.5, 1 ], "texture": "#stem", "tintindex": 0 },
+				"west": { "uv": [ 6, 0, 7, 1 ], "texture": "#stem", "tintindex": 0 },
+				"east": { "uv": [ 9, 0, 10, 1 ], "texture": "#stem", "tintindex": 0 }
+			}
+		}
+	]
+}

@@ -10,7 +10,7 @@ B:playmenumusic = 'true';
 ##[customization]
 
 B:legacybuttonids = 'false';
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 [Maximizes mod compatibility. Disables background customization support for scrollable menu screens. Restart is needed after changing this value.]
 B:softmode = 'false';
 

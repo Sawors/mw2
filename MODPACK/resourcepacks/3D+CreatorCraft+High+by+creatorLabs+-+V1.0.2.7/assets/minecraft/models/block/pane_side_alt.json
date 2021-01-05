@@ -1,0 +1,47 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"dark": "#dark",
+		"light": "#light",
+		"particle": "#dark"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6.999, 1.0007, 9.0006 ],
+			"to": [ 8.998999, 15.0007, 15.5006 ],
+			"faces": {
+				"west": { "uv": [ 9, 1, 15.5, 15 ], "texture": "#light" },
+				"east": { "uv": [ 0.5, 1, 7, 15 ], "texture": "#light" }
+			}
+		},
+		{
+			"from": [ 6.501, 0.9992, 15.4902 ],
+			"to": [ 9.500999, 14.9992, 15.9952 ],
+			"faces": {
+				"north": { "uv": [ 6.5, 1, 9.5, 15 ], "texture": "#dark" },
+				"west": { "uv": [ 15.5, 1, 16, 15 ], "texture": "#dark" },
+				"east": { "uv": [ 0, 1, 0.5, 15 ], "texture": "#dark" }
+			}
+		},
+		{
+			"from": [ 6.5001, 15.0004, 9.4991 ],
+			"to": [ 9.500099, 16.0004, 15.9991 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 0.5, 9.5, 7 ], "texture": "#dark" },
+				"up": { "uv": [ 6.5, 8.5, 9.5, 15 ], "texture": "#dark" },
+				"west": { "uv": [ 5.5, 0, 12, 1 ], "texture": "#dark" },
+				"east": { "uv": [ 0.5, 0, 7, 1 ], "texture": "#dark" }
+			}
+		},
+		{
+			"from": [ 6.5001, -0.0009, 9.5001 ],
+			"to": [ 9.500099, 0.9991, 16.0001 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 0.5, 9.5, 7 ], "texture": "#dark" },
+				"up": { "uv": [ 6.5, 9, 9.5, 15.5 ], "texture": "#dark" },
+				"west": { "uv": [ 9, 15, 15.5, 16 ], "texture": "#dark" },
+				"east": { "uv": [ 0.5, 15, 7, 16 ], "texture": "#dark" }
+			}
+		}
+	]
+}

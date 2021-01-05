@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"parent": "block/grass/only_top/parent",
+	"textures": {
+		"grass": "3d_blocks/grass/top_alts/3"
+	}
+}

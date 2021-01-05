@@ -1,0 +1,24 @@
+{
+"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
+    "variants": {
+        "normal": [
+            { "model": "granite/smooth/0" },
+			{ "model": "granite/smooth/1" },
+			{ "model": "granite/smooth/2" },
+			{ "model": "granite/smooth/3" },
+			{ "model": "granite/smooth/4" },
+			{ "model": "granite/smooth/5" },
+			{ "model": "granite/smooth/6" },
+			{ "model": "granite/smooth/7" },
+			{ "model": "granite/smooth/8" },
+			{ "model": "granite/smooth/9" },
+			{ "model": "granite/smooth/10" },
+			{ "model": "granite/smooth/11" },
+			{ "model": "granite/smooth/12" },
+			{ "model": "granite/smooth/13" },
+			{ "model": "granite/smooth/14" },
+			{ "model": "granite/smooth/15" }
+            
+        ]
+    }
+}

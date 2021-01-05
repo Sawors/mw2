@@ -1,0 +1,6 @@
+{
+    "parent": "item/glazed_terracotta",
+	"textures": {
+	"pattern": "3d_decoration/terracotta/2d/black_glazed_terracotta"
+	}
+}

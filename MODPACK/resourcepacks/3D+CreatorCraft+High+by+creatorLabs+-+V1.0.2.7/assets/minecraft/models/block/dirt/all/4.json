@@ -1,0 +1,7 @@
+{
+   "__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+   "parent": "block/dirt/all/parent",
+   "textures": {
+   "all": "3d_blocks/dirt/alts/4"
+   }
+}

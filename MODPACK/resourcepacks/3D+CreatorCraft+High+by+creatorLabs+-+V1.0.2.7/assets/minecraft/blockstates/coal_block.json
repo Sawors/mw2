@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "normal": [	 
+		{"model": "coal_block", "y": 90 },
+        {"model": "coal_block", "y": 180},
+        {"model": "coal_block", "y": 270 },	
+        {"model": "coal_block"},	
+        {"model": "coal_block", "x": 90 },
+        {"model": "coal_block", "x": 180},
+        {"model": "coal_block", "x": 270 }
+		]
+		}
+    }
+
