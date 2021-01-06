@@ -1493,6 +1493,12 @@
     },
     "done": true
   },
+  "betterwithmods:whitestone": {
+    "criteria": {
+      "has_item": "2021-01-06 12:25:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_banner": {
     "criteria": {
       "has_the_recipe": "2021-01-02 13:52:40 +0100"
@@ -3131,6 +3137,12 @@
     },
     "done": true
   },
+  "arcanearchives:root": {
+    "criteria": {
+      "auto": "2021-01-06 12:21:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_the_recipe": "2021-01-02 13:52:40 +0100"
@@ -3476,6 +3488,12 @@
   "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
     "criteria": {
       "has_the_recipe": "2021-01-02 13:52:40 +0100"
+    },
+    "done": true
+  },
+  "bewitchment:mined_silver": {
+    "criteria": {
+      "hat": "2021-01-06 12:26:44 +0100"
     },
     "done": true
   },
