@@ -1,5 +1,5 @@
-#Tue Jan 05 12:38:32 CET 2021
-shaderPack=ComplementaryShaders_3.10.zip
+#Sun Jan 10 14:43:14 CET 2021
+shaderPack=Complementary Shaders (v3.10)
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
