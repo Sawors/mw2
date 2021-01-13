@@ -1,7 +1,0 @@
-{
-"__comment": "Designed by creatorLabs with CubikStudio - https://cubik.studio - Download 3D CreatorCraft at https://www.planetminecraft.com/texture_pack/3d-creatorcraft/",
-    "variants": {
-        "half=bottom": { "model": "lite-version/half_slab_sandstone" },
-        "half=top": { "model": "lite-version/upper_slab_sandstone" }
-    }
-}
