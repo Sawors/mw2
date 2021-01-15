@@ -12,5 +12,5 @@
 > - EB Wizardry handbook page 1 : "Some Text" = Du Texte
 
 
-### English -> Français
+## English -> Français
 - iceandfire:silver_sword = épée en argent
