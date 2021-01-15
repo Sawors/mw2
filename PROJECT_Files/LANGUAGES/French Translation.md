@@ -3,13 +3,14 @@
 ### Please format your text as following : 
 
 - **Items** -> mod:itemname = translation
-> iceandfire:silver_sword = épée en argent
+> - iceandfire:silver_sword = épée en argent
 
 - **Mobs** -> mod:mobname = translation
-> minecraft:pig = cochon
+> - minecraft:pig = cochon
 
 - **Other** -> a way to identify it (for exemple "the message that shows up when you bake a cake) : "original text" = translation
-> EB Wizardry handbook page 1 : "Some Text" = Du Texte
+> - EB Wizardry handbook page 1 : "Some Text" = Du Texte
 
 
 ### English -> Français
+- iceandfire:silver_sword = épée en argent
