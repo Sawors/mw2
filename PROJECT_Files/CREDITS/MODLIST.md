@@ -1,8 +1,8 @@
 # Here is the list of mods used :
 ### Please list mods in alphabetical order
 
-__TEMPLATE :__ 
-> - [ModName - (Version)](curseforge_link)
+__TEMPLATE :__
+```- [ModName - (Version)](curseforge_link)```
 
 
 
