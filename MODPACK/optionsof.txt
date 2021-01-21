@@ -33,8 +33,8 @@ ofAutoSaveTicks:28800
 ofBetterGrass:3
 ofConnectedTextures:3
 ofWeather:false
-ofSky:false
-ofStars:false
+ofSky:true
+ofStars:true
 ofSunMoon:false
 ofVignette:1
 ofChunkUpdates:1
@@ -47,7 +47,7 @@ ofProfiler:true
 ofBetterSnow:true
 ofSwampColors:false
 ofRandomEntities:true
-ofSmoothBiomes:true
+ofSmoothBiomes:false
 ofCustomFonts:true
 ofCustomColors:true
 ofCustomItems:true

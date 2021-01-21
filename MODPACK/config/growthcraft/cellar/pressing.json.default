@@ -19,7 +19,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "Bone Meal",
+        "comment": "Poudre d\u0027os",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -45,7 +45,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "Bone Meal",
+        "comment": "Poudre d\u0027os",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -71,7 +71,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "Bone Meal",
+        "comment": "Poudre d\u0027os",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -97,7 +97,7 @@
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "Bone Meal",
+        "comment": "Poudre d\u0027os",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
@@ -109,21 +109,21 @@
       "comment": "",
       "item": {
         "ore": null,
-        "comment": "Grapes",
+        "comment": "Raisins",
         "mod_id": "rustic",
         "name": "grapes",
         "amount": 1,
         "meta": 0
       },
       "fluid": {
-        "comment": "Grape Juice",
+        "comment": "Jus de raisin",
         "name": "grapejuice",
         "amount": 250
       },
       "residue": {
         "pomace": 0.3,
         "ore": null,
-        "comment": "Bone Meal",
+        "comment": "Poudre d\u0027os",
         "mod_id": "minecraft",
         "name": "dye",
         "amount": 1,
