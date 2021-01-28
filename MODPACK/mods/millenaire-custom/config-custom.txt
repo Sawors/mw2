@@ -1,0 +1,44 @@
+
+//; 
+auto_convert_profiles=false
+
+//; 
+generate_hamlets=false
+
+//; 
+generate_travel_book_export=false
+
+//; 
+travel_book_learning=true
+
+//; 
+generate_help_data=false
+
+//; 
+ignore_resource_cost=false
+
+//Unique random identifier to count unique players if statistics are enabled
+random_uid=8767859676590868480
+
+//Advancement completed for anonymous statistics
+advancements_creative=firstcontact,thequest
+
+//Advancement completed for anonymous statistics
+advancements_survival=
+
+//Distance min entre villages; Distance minimale entre deux villages générés. Défaut : 600.
+min_village_distance=600
+
+//Rayon de protection spawn; Rayon autour du point d'apparition dans lequel Millénaire ne génère rien. Défaut : 150.
+spawn_protection_radius=150
+
+//Progrès initial maximum; Progrès initial maximum (en %) qu'un village peut avoir si éloigné du point d'apparition. Défaut : 25.
+village_spawn_completion_max_percentage=50
+
+//Envoie de statistiques; Autoriser l'envoie de statistiques anonymes à Millénaire (version, langue...).
+send_statistics=false
+
+//Nombre max d'enfants; Nombre maximal d'enfants dans un village. Défaut : 10.
+max_children_number=15
+
+validation=346190927

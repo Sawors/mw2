@@ -1,8 +1,8 @@
-#Sat Jan 23 13:42:35 CET 2021
+#Thu Jan 28 10:32:26 CET 2021
 shaderPack=Complementary Shaders (v3.10)
 antialiasingLevel=0
-normalMapEnabled=true
-specularMapEnabled=true
+normalMapEnabled=false
+specularMapEnabled=false
 renderResMul=1.0
 shadowResMul=1.0
 handDepthMul=0.125
