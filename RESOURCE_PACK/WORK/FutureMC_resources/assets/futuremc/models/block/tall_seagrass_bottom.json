@@ -1,0 +1,7 @@
+{
+    "parent": "block/seagrass",
+    "textures": {
+        "seagrass": "futuremc:block/tall_seagrass_bottom",
+        "particle": "futuremc:block/tall_seagrass_bottom"
+    }
+}

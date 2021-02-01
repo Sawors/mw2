@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:end_bricks"
+        }
+    },
+    "result": {
+        "item": "end_stone_brick_wall",
+        "count": 6
+    }
+}

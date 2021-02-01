@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "futuremc:block/fletching_table_front",
+        "down": "blocks/planks_birch",
+        "up": "futuremc:block/fletching_table_top",
+        "north": "futuremc:block/fletching_table_front",
+        "east": "futuremc:block/fletching_table_side",
+        "south": "futuremc:block/fletching_table_front",
+        "west": "futuremc:block/fletching_table_side"
+    }
+}

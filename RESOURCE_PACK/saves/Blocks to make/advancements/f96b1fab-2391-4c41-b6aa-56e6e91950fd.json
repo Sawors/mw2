@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2021-02-01 16:20:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
@@ -113,9 +119,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapdoor": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "has_planks": "2021-01-16 22:31:02 +0100"
+      "has_melon": "2021-02-01 17:25:35 +0100"
     },
     "done": true
   },
@@ -149,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2021-02-01 01:47:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2021-01-05 17:28:09 +0100"
@@ -158,6 +170,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -227,9 +245,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/red_dye_from_bromeliad": {
     "criteria": {
       "has_flower": "2021-01-17 14:15:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2021-02-01 02:24:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_melon": "2021-02-01 17:25:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -299,6 +341,18 @@
     },
     "done": true
   },
+  "pyrotech:furnace": {
+    "criteria": {
+      "item": "2021-02-01 01:47:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-02-01 16:20:47 +0100"
+    },
+    "done": true
+  },
   "ebwizardry:handbook/scrolls": {
     "criteria": {
       "criteria_0": "2021-01-17 14:19:12 +0100"
@@ -314,6 +368,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2021-01-31 22:16:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2021-02-02 00:01:35 +0100"
     },
     "done": true
   },
@@ -335,6 +395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar": {
     "criteria": {
       "has_reeds": "2021-01-06 11:27:51 +0100"
@@ -344,6 +410,12 @@
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_double_plant": "2021-01-05 17:29:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -419,6 +491,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2021-01-16 23:02:33 +0100"
@@ -486,6 +564,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2021-01-20 20:25:00 +0100"
@@ -516,9 +600,21 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2021-01-05 17:28:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -540,6 +636,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_nether_brick": {
+    "criteria": {
+      "has_nether_wart": "2021-02-01 02:24:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
@@ -552,9 +654,27 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2021-02-01 02:24:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2021-02-01 16:20:33 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/cyan_dye_from_glowflower": {
     "criteria": {
       "has_flower": "2021-01-17 14:15:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -567,6 +687,18 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2021-02-01 16:20:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -666,6 +798,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_block": {
+    "criteria": {
+      "has_brick": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2021-01-05 17:28:09 +0100"
@@ -714,6 +858,12 @@
     },
     "done": true
   },
+  "ebwizardry:all_spells": {
+    "criteria": {
+      "containment": "2021-02-01 23:22:15 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
@@ -741,6 +891,12 @@
   "ebwizardry:crystal": {
     "criteria": {
       "criteria_0": "2021-01-17 14:18:35 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:crafting_table": {
+    "criteria": {
+      "item": "2021-02-01 01:47:37 +0100"
     },
     "done": true
   },
@@ -801,6 +957,12 @@
   "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
     "criteria": {
       "has_gravel": "2021-01-31 18:42:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2021-02-01 17:26:27 +0100"
     },
     "done": true
   },
@@ -900,6 +1062,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-02-01 16:20:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_quartz_block": {
     "criteria": {
       "has_quartz_block": "2021-01-05 17:26:32 +0100"
@@ -972,6 +1146,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma": {
+    "criteria": {
+      "has_magma_cream": "2021-02-01 02:25:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/noteblock": {
     "criteria": {
       "has_redstone": "2021-01-16 23:02:33 +0100"
@@ -981,6 +1161,18 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2021-01-05 17:28:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2021-02-01 16:20:47 +0100"
     },
     "done": true
   },
@@ -1020,6 +1212,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/light_blue_dye_from_blue_hydrangea": {
     "criteria": {
       "has_flower": "2021-01-17 14:15:25 +0100"
@@ -1029,6 +1227,18 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2021-01-07 18:15:06 +0100"
+    },
+    "done": true
+  },
+  "ebwizardry:discover_spell": {
+    "criteria": {
+      "criteria_0": "2021-02-01 23:22:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2021-02-01 02:24:47 +0100"
     },
     "done": true
   },
@@ -1047,6 +1257,12 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2021-01-16 22:29:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -1164,6 +1380,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/pink_dye_from_miners_delight": {
     "criteria": {
       "has_flower": "2021-01-17 14:16:22 +0100"
@@ -1173,6 +1395,12 @@
   "ebwizardry:handbook/magical_creatures": {
     "criteria": {
       "storm_elemental": "2021-01-20 20:25:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -1230,6 +1458,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon_block": {
+    "criteria": {
+      "has_melon": "2021-02-01 17:25:35 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/mud_from_dirt": {
     "criteria": {
       "has_gem_block": "2021-01-17 14:10:29 +0100"
@@ -1251,6 +1485,24 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2021-01-06 11:33:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2021-02-02 00:01:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick": {
+    "criteria": {
+      "has_netherbrick": "2021-02-01 17:26:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },
@@ -1287,6 +1539,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-02-01 17:45:29 +0100"
     },
     "done": true
   },

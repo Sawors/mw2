@@ -1,21 +1,29 @@
-
-//; 
+//Current player gets controlled villages; When loading a single player world (including opened on LAN), have the single player use the current Millénaire profile and control all the world's controlled villages.
 auto_convert_profiles=false
 
-//; 
+//Generate villages with hamlets; Whether to generate villages with hamlets around them. Takes a lot of space!
 generate_hamlets=false
 
-//; 
+//config.generate_travel_book_export.label; config.generate_travel_book_export.desc:
 generate_travel_book_export=false
 
-//; 
+//Travel Book Learning; Whether villagers, buildings etc descriptions in the Travel Book are revealed only after meeting the item in question.
 travel_book_learning=true
 
-//; 
+//Generate help data; Generates various data (colour sheet, goods list, infos on generic goals) useful to content makers
 generate_help_data=false
 
-//; 
+//config.ignore_resource_cost.label; config.ignore_resource_cost.desc:
 ignore_resource_cost=false
+
+//Statistics; Whether to authorize the sending of anonymous statistics (version, language...) to the Millénaire servers.
+send_statistics=false
+
+//Max Children Number; Maximum number of children a village can have. Default: 10.
+max_children_number=15
+
+//Max Progress on Spawn; Maximum initial progress a village can have (in %) when generated far from the Spawn Point. Default: 25.
+village_spawn_completion_max_percentage=50
 
 //Unique random identifier to count unique players if statistics are enabled
 random_uid=8767859676590868480
@@ -25,20 +33,5 @@ advancements_creative=firstcontact,thequest,explorer,marcopolo
 
 //Advancement completed for anonymous statistics
 advancements_survival=
-
-//Distance min entre villages; Distance minimale entre deux villages générés. Défaut : 600.
-min_village_distance=600
-
-//Rayon de protection spawn; Rayon autour du point d'apparition dans lequel Millénaire ne génère rien. Défaut : 150.
-spawn_protection_radius=150
-
-//Progrès initial maximum; Progrès initial maximum (en %) qu'un village peut avoir si éloigné du point d'apparition. Défaut : 25.
-village_spawn_completion_max_percentage=50
-
-//Envoie de statistiques; Autoriser l'envoie de statistiques anonymes à Millénaire (version, langue...).
-send_statistics=false
-
-//Nombre max d'enfants; Nombre maximal d'enfants dans un village. Défaut : 10.
-max_children_number=15
 
 validation=346190995

@@ -1,0 +1,9 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "futuremc:seagrass"
+            }
+        }
+    ]
+}
