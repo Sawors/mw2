@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CHC",
+        "CAC",
+        "CBC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:carrot"
+        },
+        
+        "H":
+        {
+            "item": "minecraft:iron_helmet"
+        },
+        
+        "A":
+        {
+            "item": "minecraft:iron_chestplate"
+        },
+        
+		"B":
+        {
+            "item": "minecraft:iron_boots"
+        }
+    },
+    
+    "result":
+    {
+        "item": "pigarmy:iron_pig_armor",
+        "count": 1
+    }
+}

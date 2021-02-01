@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockTopaz"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:gem",
+    "count": 9,
+    "data": 3
+  }
+}

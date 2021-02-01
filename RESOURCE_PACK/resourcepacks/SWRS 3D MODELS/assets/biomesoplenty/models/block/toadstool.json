@@ -1,0 +1,192 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "biomesoplenty:blocks/toadstool",
+		"particle": "biomesoplenty:blocks/toadstool"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 15]},
+			"faces": {
+				"north": {"uv": [7, 10, 9, 16], "texture": "#0"},
+				"east": {"uv": [7, 10, 9, 16], "texture": "#0"},
+				"south": {"uv": [7, 10, 9, 16], "texture": "#0"},
+				"west": {"uv": [7, 10, 9, 16], "texture": "#0"},
+				"up": {"uv": [7, 10, 9, 12], "texture": "#0"},
+				"down": {"uv": [7, 10, 9, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 9, 7],
+			"to": [9, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 17, 15]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 7], "texture": "#0"},
+				"east": {"uv": [7, 6, 9, 7], "texture": "#0"},
+				"south": {"uv": [7, 6, 9, 7], "texture": "#0"},
+				"west": {"uv": [7, 6, 9, 7], "texture": "#0"},
+				"up": {"uv": [7, 6, 9, 7], "texture": "#0"},
+				"down": {"uv": [7, 6, 9, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 6, 9],
+			"to": [9, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 14, 16]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"east": {"uv": [9, 7, 10, 10], "texture": "#0"},
+				"south": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"west": {"uv": [6, 7, 7, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 9, 8], "texture": "#0"},
+				"down": {"uv": [7, 8, 9, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 6, 6],
+			"to": [9, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 14, 13]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"east": {"uv": [9, 7, 10, 10], "texture": "#0"},
+				"south": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"west": {"uv": [6, 7, 7, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 9, 8], "texture": "#0"},
+				"down": {"uv": [7, 7, 9, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 6, 7],
+			"to": [10, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 14, 14]},
+			"faces": {
+				"north": {"uv": [9, 7, 10, 10], "texture": "#0"},
+				"east": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"south": {"uv": [6, 7, 7, 10], "texture": "#0"},
+				"west": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 8, 9], "texture": "#0"},
+				"down": {"uv": [7, 7, 8, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 6, 7],
+			"to": [7, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 14, 14]},
+			"faces": {
+				"north": {"uv": [6, 7, 7, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"south": {"uv": [9, 7, 10, 10], "texture": "#0"},
+				"west": {"uv": [7, 7, 9, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 8, 9], "texture": "#0"},
+				"down": {"uv": [8, 7, 9, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [13, 0, 2],
+			"to": [14, 2, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 8, 10]},
+			"faces": {
+				"north": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"east": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"south": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"west": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"up": {"uv": [11, 14, 12, 15], "texture": "#0"},
+				"down": {"uv": [11, 15, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [4, 4, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 8, 11]},
+			"faces": {
+				"north": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"east": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"south": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"west": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"up": {"uv": [4, 12, 5, 13], "texture": "#0"},
+				"down": {"uv": [4, 15, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 2, 2],
+			"to": [5, 3, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 10, 12]},
+			"faces": {
+				"north": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"east": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"south": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"west": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"up": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"down": {"uv": [5, 13, 6, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 0, 10],
+			"to": [13, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [20, 8, 18]},
+			"faces": {
+				"north": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"east": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"south": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"west": {"uv": [4, 12, 5, 16], "texture": "#0"},
+				"up": {"uv": [4, 12, 5, 13], "texture": "#0"},
+				"down": {"uv": [4, 15, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 2, 9],
+			"to": [14, 3, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [20, 10, 19]},
+			"faces": {
+				"north": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"east": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"south": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"west": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"up": {"uv": [5, 13, 6, 14], "texture": "#0"},
+				"down": {"uv": [5, 13, 6, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 12],
+			"to": [6, 2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 8, 20]},
+			"faces": {
+				"north": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"east": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"south": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"west": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"up": {"uv": [11, 14, 12, 15], "texture": "#0"},
+				"down": {"uv": [11, 15, 12, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Mush1",
+			"origin": [14, 14, 14],
+			"children": [0, 1, 2, 3, 4, 5]
+		},
+		{
+			"name": "MushSmall",
+			"origin": [11, 10, 12],
+			"children": [6]
+		},
+		{
+			"name": "MushMed",
+			"origin": [8, 8, 8],
+			"children": [7, 8]
+		},
+		{
+			"name": "MushMed",
+			"origin": [8, 8, 8],
+			"children": [9, 10]
+		},
+		{
+			"name": "MushSmall",
+			"origin": [11, 10, 12],
+			"children": [11]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CHC",
+        "CAC",
+        "CBC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:carrot"
+        },
+        
+        "H":
+        {
+            "item": "minecraft:diamond_helmet"
+        },
+        
+        "A":
+        {
+            "item": "minecraft:diamond_chestplate"
+        },
+        
+		"B":
+        {
+            "item": "minecraft:diamond_boots"
+        }
+    },
+    
+    "result":
+    {
+        "item": "pigarmy:diamond_pig_armor",
+        "count": 1
+    }
+}

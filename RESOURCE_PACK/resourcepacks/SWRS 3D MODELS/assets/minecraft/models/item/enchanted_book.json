@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:item/book",
+   "textures": {
+       "0": "minecraft:item/enchanted_books/default_enchanted_book"
+   }
+}

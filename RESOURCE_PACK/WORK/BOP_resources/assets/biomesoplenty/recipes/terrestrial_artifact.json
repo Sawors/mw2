@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemRuby"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemTopaz"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemAmber"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemPeridot"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemMalachite"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemSapphire"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemTanzanite"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemEmerald"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:terrestrial_artifact"
+  }
+}

@@ -21,7 +21,7 @@ ignore_resource_cost=false
 random_uid=8767859676590868480
 
 //Advancement completed for anonymous statistics
-advancements_creative=firstcontact,thequest
+advancements_creative=firstcontact,thequest,explorer,marcopolo
 
 //Advancement completed for anonymous statistics
 advancements_survival=
@@ -41,4 +41,4 @@ send_statistics=false
 //Nombre max d'enfants; Nombre maximal d'enfants dans un village. Défaut : 10.
 max_children_number=15
 
-validation=346190927
+validation=346190995

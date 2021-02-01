@@ -1,0 +1,2 @@
+#Sat Jan 30 19:40:36 CET 2021
+shadowDistance=180.0

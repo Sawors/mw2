@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#T#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "gemAmethyst"
+    },
+    "T": {
+      "item": "biomesoplenty:terrestrial_artifact"
+    }
+  },
+  "result": {
+    "item": "biomesoplenty:biome_finder"
+  }
+}

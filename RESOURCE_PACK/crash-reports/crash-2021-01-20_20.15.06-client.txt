@@ -1,0 +1,141 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Oh - I know what I did wrong!
+
+Time: 1/20/21 8:15 PM
+Description: Tesselating block model
+
+java.lang.NullPointerException: Tesselating block model
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:328)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:43)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+
+-- Block model being tesselated --
+Details:
+	Block: minecraft:potatoes[age=7]
+	Block location: World: (1189,4,509), Chunk: (at 5,0,13 in 74,31; contains blocks 1184,0,496 to 1199,255,511), Region: (2,0; contains chunks 64,0 to 95,31, blocks 1024,0,0 to 1535,255,511)
+	Using AO: true
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #142 (tile.potatoes // net.minecraft.block.BlockPotato // minecraft:potatoes)
+	Block data value: 7 / 0x7 / 0b0111
+	Block location: World: (1189,4,509), Chunk: (at 5,0,13 in 74,31; contains blocks 1184,0,496 to 1199,255,511), Region: (2,0; contains chunks 64,0 to 95,31, blocks 1024,0,0 to 1535,255,511)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Sawors'/27, l='MpServer', x=1191.31, y=4.00, z=518.20]]
+	Chunk stats: MultiplayerChunkCache: 49, 49
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (1153,4,531), Chunk: (at 1,0,3 in 72,33; contains blocks 1152,0,528 to 1167,255,543), Region: (2,1; contains chunks 64,32 to 95,63, blocks 1024,0,512 to 1535,255,1023)
+	Level time: 647648 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 5 total; [EntityItemFrame['entity.ItemFrame.name'/23, l='MpServer', x=1202.50, y=6.50, z=510.03], EntityItemFrame['entity.ItemFrame.name'/24, l='MpServer', x=1203.50, y=6.50, z=510.03], EntityItemFrame['entity.ItemFrame.name'/25, l='MpServer', x=1204.50, y=6.50, z=510.03], EntityItemFrame['entity.ItemFrame.name'/26, l='MpServer', x=1204.50, y=5.50, z=510.03], EntityPlayerSP['Sawors'/27, l='MpServer', x=1191.31, y=4.00, z=518.20]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:49)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 347770200 bytes (331 MB) / 1107296256 bytes (1056 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_G5_pre1 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID            | Version      | Source                                        | Signature                                |
+	|:------ |:------------- |:------------ |:--------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft     | 1.12.2       | minecraft.jar                                 | None                                     |
+	| LCHIJA | mcp           | 9.42         | minecraft.jar                                 | None                                     |
+	| LCHIJA | FML           | 8.0.99.99    | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge         | 14.23.5.2854 | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | baubles       | 1.5.2        | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCHIJA | baubleshud    | 5.0.2        | BaublesHud-1.12.2-5.0.2.jar                   | None                                     |
+	| LCHIJA | biomesoplenty | 7.0.1.2444   | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar | None                                     |
+	| LCHIJA | ebwizardry    | 4.3.1        | ElectroblobsWizardry-4.3.1-MC1.12.2.jar       | None                                     |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Launched Version: 1.12.2-forge-14.23.5.2854
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: SWRS 3D MODELS, Vanilla_1.15.2_for_1.12.2_optifine_V13
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5_pre1
+	OptiFine Build: 20201206-232027
+	Render Distance Chunks: 2
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: Complementary Shaders (v3.10)
+	OpenGlVersion: 4.6.0 NVIDIA 460.89
+	OpenGlRenderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8

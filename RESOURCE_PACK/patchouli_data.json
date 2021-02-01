@@ -1,0 +1,30 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "pyrotech:book": {
+      "viewedEntries": [
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/campfire",
+        "pyrotech:gather/sticks",
+        "pyrotech:survive/worktable",
+        "pyrotech:innovate/stone_worktable",
+        "pyrotech:innovate/stone_bricks",
+        "pyrotech:innovate/stone_brick",
+        "pyrotech:innovate/compacting_bin"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pyrotech:innovate/compacting_bin",
+        "pyrotech:innovate/stone_worktable",
+        "pyrotech:innovate/stone_bricks",
+        "pyrotech:innovate/stone_brick",
+        "pyrotech:survive/worktable",
+        "pyrotech:gather/sticks",
+        "pyrotech:survive/campfire",
+        "pyrotech:survive/introduction"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

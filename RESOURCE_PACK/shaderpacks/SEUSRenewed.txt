@@ -1,0 +1,2 @@
+#Sat Jan 30 17:44:04 CET 2021
+MOTION_BLUR=false

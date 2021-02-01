@@ -1,0 +1,26 @@
+﻿
+//Items
+item.pigarmy:ironPigArmor.name=Armadura de hierro para cerdo
+item.pigarmy:goldenPigArmor.name=Armadura de oro para cerdo
+item.pigarmy:diamondPigArmor.name=Armadura de diamante para cerdo
+item.pigarmy:cookedCarrot.name=Zanahoria cocida
+
+//Entities
+entity.pig.name=Cerdo
+
+//Tabs
+itemGroup.tabPigArmy=PigArmy
+
+//Config
+config.pigarmor:pigbasemaxhealth=Máxima salud base (no domesticado) del cerdo:
+config.pigarmor:pigtamedmaxhealth=Máxima salud de cerdo domesticado:
+config.pigarmor:pigspeedfactor=Factor de velocidad al montar (Vanilla por defecto = 0.225F):
+config.pigarmor:ironarmorprotection=Protección de la armadura de hierro (Mod por defecto = 10):
+config.pigarmor:goldarmorprotection=Protección de la armadura de oro (Mod por defecto = 13):
+config.pigarmor:diamondarmorprotection=Protección de la armadura de diamante (Mod por defecto = 16):
+config.pigarmor:canbehealed=Los cerdos se pueden curar con comida:
+config.pigarmor:autoheal=Los cerdos se pueden auto curar con comida:
+config.pigarmor:shouldattack=Los cerdos deben atacar a mobs hostiles:
+config.pigarmor:attackdamage=Daño de ataque de los cerdos:
+config.pigarmor:replacevanilla=Reemplazar cerdos Vanilla (Mod por defecto = false):
+config.pigarmor:spawnentities=Generar cerdos de este mod (Mod por defecto = true):

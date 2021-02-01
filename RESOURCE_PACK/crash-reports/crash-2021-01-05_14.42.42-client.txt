@@ -1,0 +1,137 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// My bad.
+
+Time: 1/5/21 2:42 PM
+Description: Tesselating block model
+
+java.lang.NullPointerException: Tesselating block model
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:328)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:43)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+
+-- Block model being tesselated --
+Details:
+	Block: minecraft:dirt[snowy=false,variant=dirt]
+	Block location: World: (608,1,-240), Chunk: (at 0,0,0 in 38,-15; contains blocks 608,0,-240 to 623,255,-225), Region: (1,-1; contains chunks 32,-32 to 63,-1, blocks 512,0,-512 to 1023,255,-1)
+	Using AO: true
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #3 (tile.dirt // net.minecraft.block.BlockDirt // minecraft:dirt)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (608,1,-240), Chunk: (at 0,0,0 in 38,-15; contains blocks 608,0,-240 to 623,255,-225), Region: (1,-1; contains chunks 32,-32 to 63,-1, blocks 512,0,-512 to 1023,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Sawors'/23, l='MpServer', x=608.50, y=4.00, z=-248.50]]
+	Chunk stats: MultiplayerChunkCache: 394, 394
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (604,4,-251), Chunk: (at 12,0,5 in 37,-16; contains blocks 592,0,-256 to 607,255,-241), Region: (1,-1; contains chunks 32,-32 to 63,-1, blocks 512,0,-512 to 1023,255,-1)
+	Level time: 41 game time, 41 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 7 total; [EntityVillager['Villager'/17, l='MpServer', x=600.31, y=5.00, z=-319.50], EntityVillager['Villager'/18, l='MpServer', x=608.50, y=5.00, z=-314.50], EntityVillager['Villager'/19, l='MpServer', x=613.50, y=5.00, z=-327.50], EntityVillager['Villager'/20, l='MpServer', x=603.50, y=5.00, z=-306.50], EntityVillager['Villager'/10, l='MpServer', x=595.45, y=4.65, z=-324.68], EntityVillager['Villager'/11, l='MpServer', x=592.50, y=5.00, z=-317.50], EntityPlayerSP['Sawors'/23, l='MpServer', x=608.50, y=4.00, z=-248.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:49)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 391015496 bytes (372 MB) / 838860800 bytes (800 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_G5_pre1 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID        | Version      | Source                        | Signature                                |
+	|:------ |:--------- |:------------ |:----------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                 | None                                     |
+	| LCHIJA | mcp       | 9.42         | minecraft.jar                 | None                                     |
+	| LCHIJA | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2854.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge     | 14.23.5.2854 | forge-1.12.2-14.23.5.2854.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Launched Version: 1.12.2-forge-14.23.5.2854
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: SWRS 3D MODELS
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5_pre1
+	OptiFine Build: 20201206-232027
+	Render Distance Chunks: 16
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 460.89
+	OpenGlRenderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8

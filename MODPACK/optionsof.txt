@@ -5,7 +5,7 @@ ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:false
 ofAoLevel:1.0
-ofClouds:3
+ofClouds:2
 ofCloudsHeight:1.0
 ofTrees:2
 ofDroppedItems:2
@@ -40,12 +40,12 @@ ofVignette:1
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:false
 ofTime:0
-ofClearWater:false
+ofClearWater:true
 ofAaLevel:0
 ofAfLevel:1
 ofProfiler:true
 ofBetterSnow:true
-ofSwampColors:false
+ofSwampColors:true
 ofRandomEntities:true
 ofSmoothBiomes:true
 ofCustomFonts:true
@@ -68,5 +68,5 @@ ofShowGlErrors:true
 ofFullscreenMode:Default
 ofFastMath:false
 ofFastRender:false
-ofTranslucentBlocks:1
+ofTranslucentBlocks:2
 key_of.key.zoom:0

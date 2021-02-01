@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "gemRuby"
+    }
+  },
+  "result": {
+    "item": "biomesoplenty:gem_block",
+    "data": 1
+  }
+}
