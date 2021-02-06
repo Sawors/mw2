@@ -1,5 +1,5 @@
-#Tue Feb 02 22:00:03 CET 2021
-shaderPack=Complementary Shaders (v3.10)
+#Sat Feb 06 12:34:58 CET 2021
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/_axe",
+    "textures": {
+        "layer0": "futuremc:item/netherite_axe"
+    }
+}

@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-02-02 19:08:36 +0100"
@@ -38,6 +44,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-02-02 19:08:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
     },
     "done": true
   },
@@ -112,6 +124,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/misc/lime_dye_from_glowshroom": {
+    "criteria": {
+      "has_flower": "2021-02-06 13:33:25 +0100"
+    },
+    "done": true
+  },
   "ebwizardry:discover_spell": {
     "criteria": {
       "criteria_0": "2021-02-02 21:51:57 +0100"
@@ -168,6 +186,18 @@
   "pyrotech:stone": {
     "criteria": {
       "stone": "2021-02-02 18:32:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-02-06 13:59:49 +0100"
     },
     "done": true
   },
@@ -303,6 +333,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_cherry": {
     "criteria": {
       "entered_water": "2021-02-02 17:54:04 +0100"
@@ -337,9 +373,16 @@
     "criteria": {
       "zombie_villager": "2021-02-02 21:48:31 +0100",
       "skeleton": "2021-02-02 19:40:55 +0100",
+      "zombie": "2021-02-06 13:57:01 +0100",
       "spider": "2021-02-02 19:41:10 +0100"
     },
     "done": false
+  },
+  "pyrotech:root": {
+    "criteria": {
+      "mod_item": "2021-02-06 14:00:00 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
@@ -353,9 +396,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2021-02-06 13:59:49 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stonebrick": {
     "criteria": {
       "has_stone": "2021-02-02 19:03:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
     },
     "done": true
   },
@@ -440,6 +495,12 @@
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2021-02-02 19:03:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2021-02-06 13:55:47 +0100"
     },
     "done": true
   },

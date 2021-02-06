@@ -1,0 +1,6 @@
+{
+    "parent": "item/_pickaxe",
+    "textures": {
+        "layer0": "items/gold_pickaxe"
+    }
+}

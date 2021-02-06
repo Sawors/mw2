@@ -1,0 +1,163 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  ItemPatchingLoader (ItemPhysic_Full_1.4.34_mc1.12.2.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.34_mc1.12.2.jar)
+  FutureMC (future-mc-1.12.2-0.2.4.1.jar)
+Contact their authors BEFORE contacting forge
+
+// Daisy, daisy...
+
+Time: 2/6/21 1:50 PM
+Description: Tesselating block model
+
+java.lang.NullPointerException: Tesselating block model
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:328)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:43)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.add(ImmutableCollection.java:477)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:758)
+	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:734)
+	at com.google.common.collect.ImmutableCollection$Builder.addAll(ImmutableCollection.java:417)
+	at com.google.common.collect.ImmutableCollection$ArrayBasedBuilder.addAll(ImmutableCollection.java:500)
+	at com.google.common.collect.ImmutableList$Builder.addAll(ImmutableList.java:773)
+	at net.minecraftforge.client.model.FancyMissingModel$BakedModel.func_188616_a(FancyMissingModel.java:165)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187498_b(BlockModelRenderer.java:121)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.func_187498_b(ForgeBlockModelRenderer.java:85)
+
+-- Block model being tesselated --
+Details:
+	Block: minecraft:redstone_ore
+	Block location: World: (-897,14,64), Chunk: (at 15,0,0 in -57,4; contains blocks -912,0,64 to -897,255,79), Region: (-2,0; contains chunks -64,0 to -33,31, blocks -1024,0,0 to -513,255,511)
+	Using AO: true
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:79)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:58)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #73 (tile.oreRedstone // net.minecraft.block.BlockRedstoneOre // minecraft:redstone_ore)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-897,14,64), Chunk: (at 15,0,0 in -57,4; contains blocks -912,0,64 to -897,255,79), Region: (-2,0; contains chunks -64,0 to -33,31, blocks -1024,0,0 to -513,255,511)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Sawors'/618, l='MpServer', x=-927.73, y=13.55, z=72.59]]
+	Chunk stats: MultiplayerChunkCache: 597, 597
+	Level seed: 0
+	Level generator: ID 06 - BIOMESOP, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-16,64,172), Chunk: (at 0,4,12 in -1,10; contains blocks -16,0,160 to -1,255,175), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 120907 game time, 80533 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 81 total; [EntityBat['Bat'/1799, l='MpServer', x=-907.48, y=15.10, z=92.71], EntityEnderman['Enderman'/3861, l='MpServer', x=-943.51, y=14.00, z=87.57], EntityCreeper['Creeper'/3101, l='MpServer', x=-934.19, y=18.00, z=76.54], EntityBat['Bat'/1568, l='MpServer', x=-913.25, y=23.10, z=78.25], EntitySkeleton['Skeleton'/4390, l='MpServer', x=-885.50, y=22.00, z=115.50], EntityZombie['Zombie'/4392, l='MpServer', x=-1007.50, y=54.00, z=14.50], EntityBat['Bat'/4398, l='MpServer', x=-960.75, y=60.71, z=136.47], EntitySkeleton['Skeleton'/1583, l='MpServer', x=-924.60, y=22.87, z=52.30], EntityIceWraith['Ice Wraith'/4400, l='MpServer', x=-860.50, y=48.00, z=39.50], EntitySpider['Spider'/4409, l='MpServer', x=-955.50, y=107.00, z=89.50], EntityLlama['Llama'/1083, l='MpServer', x=-868.32, y=123.00, z=112.90], EntityLlama['Llama'/1084, l='MpServer', x=-849.82, y=114.00, z=119.39], EntityLlama['Llama'/1085, l='MpServer', x=-854.55, y=114.00, z=116.42], EntityLlama['Llama'/1086, l='MpServer', x=-861.70, y=118.00, z=113.67], EntityLlama['Llama'/1087, l='MpServer', x=-863.09, y=118.00, z=114.91], EntityChicken['Chicken'/4159, l='MpServer', x=-975.50, y=21.00, z=65.50], EntityZombie['Zombie'/2624, l='MpServer', x=-912.30, y=13.05, z=91.70], EntityLlama['Llama'/1088, l='MpServer', x=-849.04, y=114.00, z=117.15], EntitySkeleton['Skeleton'/4169, l='MpServer', x=-850.71, y=83.00, z=119.49], EntityBat['Bat'/3659, l='MpServer', x=-907.75, y=15.10, z=93.75], EntityCreeper['Creeper'/4430, l='MpServer', x=-937.50, y=98.00, z=97.50], EntityLlama['Llama'/1104, l='MpServer', x=-856.23, y=186.00, z=78.85], EntityLlama['Llama'/1105, l='MpServer', x=-856.74, y=186.00, z=78.01], EntityLlama['Llama'/1106, l='MpServer', x=-858.41, y=181.00, z=79.95], EntityCreeper['Creeper'/4440, l='MpServer', x=-862.50, y=17.00, z=-7.50], EntitySkeleton['Skeleton'/4445, l='MpServer', x=-870.50, y=21.00, z=136.50], EntityZombie['Zombie'/4446, l='MpServer', x=-985.50, y=21.00, z=-9.50], EntityZombie['Zombie'/4447, l='MpServer', x=-980.50, y=21.00, z=-5.50], EntitySkeleton['Skeleton'/4453, l='MpServer', x=-928.50, y=20.00, z=90.16], EntitySkeleton['Skeleton'/4456, l='MpServer', x=-859.50, y=17.00, z=-9.50], EntityLlama['Llama'/875, l='MpServer', x=-936.03, y=127.00, z=144.15], EntityCreeper['Creeper'/4460, l='MpServer', x=-885.84, y=12.00, z=135.46], EntityZombie['Zombie'/4461, l='MpServer', x=-957.91, y=107.00, z=89.56], EntityLlama['Llama'/878, l='MpServer', x=-936.49, y=121.00, z=149.50], EntityZombie['Zombie'/4462, l='MpServer', x=-957.50, y=107.00, z=90.50], EntityLlama['Llama'/879, l='MpServer', x=-934.73, y=125.00, z=144.50], EntityCreeper['Creeper'/3695, l='MpServer', x=-925.35, y=23.38, z=52.31], EntityZombie['Zombie'/4463, l='MpServer', x=-960.19, y=107.00, z=87.58], EntitySkeleton['Skeleton'/4465, l='MpServer', x=-884.50, y=36.00, z=51.50], EntityCreeper['Creeper'/4466, l='MpServer', x=-887.50, y=12.00, z=129.50], EntityCreeper['Creeper'/4467, l='MpServer', x=-951.50, y=80.00, z=137.50], EntityZombie['Zombie'/4468, l='MpServer', x=-930.50, y=20.00, z=89.69], EntitySkeleton['Skeleton'/4470, l='MpServer', x=-967.50, y=62.00, z=94.50], EntityLlama['Llama'/887, l='MpServer', x=-945.50, y=147.00, z=68.50], EntityLlama['Llama'/888, l='MpServer', x=-944.36, y=147.00, z=68.50], EntityZombie['Zombie'/4472, l='MpServer', x=-932.50, y=35.00, z=28.50], EntityLlama['Llama'/889, l='MpServer', x=-913.50, y=118.00, z=117.50], EntitySkeleton['Skeleton'/4473, l='MpServer', x=-966.50, y=62.00, z=93.50], EntityLlama['Llama'/890, l='MpServer', x=-922.04, y=123.00, z=112.73], EntitySkeleton['Skeleton'/4474, l='MpServer', x=-958.24, y=29.00, z=66.46], EntityLlama['Llama'/891, l='MpServer', x=-939.93, y=138.00, z=140.84], EntityZombie['Zombie'/4475, l='MpServer', x=-974.72, y=57.00, z=70.46], EntityLlama['Llama'/892, l='MpServer', x=-922.96, y=125.00, z=111.15], EntityLlama['Llama'/897, l='MpServer', x=-941.46, y=105.00, z=53.19], EntityLlama['Llama'/898, l='MpServer', x=-943.05, y=147.00, z=68.91], EntityLlama['Llama'/899, l='MpServer', x=-942.86, y=145.00, z=66.00], EntityLlama['Llama'/900, l='MpServer', x=-964.50, y=153.00, z=0.50], EntityLlama['Llama'/901, l='MpServer', x=-961.50, y=151.00, z=1.50], EntityLlama['Llama'/902, l='MpServer', x=-961.01, y=149.00, z=5.00], EntityLlama['Llama'/903, l='MpServer', x=-963.50, y=153.00, z=2.50], EntityBat['Bat'/2699, l='MpServer', x=-907.75, y=24.10, z=68.75], EntitySkeleton['Skeleton'/4496, l='MpServer', x=-884.34, y=52.00, z=61.50], EntityBat['Bat'/4245, l='MpServer', x=-876.17, y=20.10, z=110.38], EntitySpider['Spider'/4248, l='MpServer', x=-862.50, y=35.00, z=148.50], EntitySkeleton['Skeleton'/4504, l='MpServer', x=-974.50, y=70.00, z=115.50], EntitySkeleton['Skeleton'/4513, l='MpServer', x=-948.50, y=17.00, z=92.50], EntityIceWraith['Ice Wraith'/4522, l='MpServer', x=-982.50, y=69.00, z=59.50], EntityBat['Bat'/4267, l='MpServer', x=-1001.02, y=53.64, z=116.15], EntityBat['Bat'/4269, l='MpServer', x=-887.83, y=14.10, z=135.47], EntitySkeleton['Skeleton'/4271, l='MpServer', x=-958.50, y=108.00, z=92.50], EntityCreeper['Creeper'/4273, l='MpServer', x=-860.11, y=56.00, z=32.30], EntityZombie['Zombie'/2996, l='MpServer', x=-932.21, y=19.00, z=80.23], EntitySkeleton['Skeleton'/4041, l='MpServer', x=-956.44, y=20.00, z=88.70], EntityZombie['Zombie'/4298, l='MpServer', x=-959.50, y=61.00, z=121.50], EntitySkeleton['Skeleton'/4046, l='MpServer', x=-965.22, y=22.00, z=89.49], EntityIceWraith['Ice Wraith'/4303, l='MpServer', x=-1004.50, y=68.00, z=25.50], EntityCreeper['Creeper'/2266, l='MpServer', x=-913.50, y=32.00, z=59.50], EntityZombie['Zombie'/4060, l='MpServer', x=-939.80, y=19.00, z=51.63], EntityLlama['Llama'/1002, l='MpServer', x=-908.00, y=122.00, z=105.15], EntityPlayerSP['Sawors'/618, l='MpServer', x=-927.73, y=13.55, z=72.59], EntityCreeper['Creeper'/4339, l='MpServer', x=-913.50, y=88.00, z=109.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:49)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1113733184 bytes (1062 MB) / 2080374784 bytes (1984 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 92
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 Optifine OptiFine_1.12.2_HD_U_G5 17 mods loaded, 17 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                | Version       | Source                                        | Signature                                |
+	|:------ |:----------------- |:------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft         | 1.12.2        | minecraft.jar                                 | None                                     |
+	| LCHIJA | mcp               | 9.42          | minecraft.jar                                 | None                                     |
+	| LCHIJA | FML               | 8.0.99.99     | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge             | 14.23.5.2854  | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | creativecoredummy | 1.0.0         | minecraft.jar                                 | None                                     |
+	| LCHIJA | itemphysic        | 1.4.0         | minecraft.jar                                 | None                                     |
+	| LCHIJA | athenaeum         | 1.12.2-1.19.2 | athenaeum-1.12.2-1.19.2.jar                   | None                                     |
+	| LCHIJA | baubles           | 1.5.2         | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCHIJA | baubleshud        | 5.0.2         | BaublesHud-1.12.2-5.0.2.jar                   | None                                     |
+	| LCHIJA | biomesoplenty     | 7.0.1.2444    | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar | None                                     |
+	| LCHIJA | creativecore      | 1.10.0        | CreativeCore_v1.10.34_mc1.12.2.jar            | None                                     |
+	| LCHIJA | dropt             | 1.12.2-1.18.0 | dropt-1.12.2-1.18.0.jar                       | None                                     |
+	| LCHIJA | ebwizardry        | 4.3.1         | ElectroblobsWizardry-4.3.1-MC1.12.2.jar       | None                                     |
+	| LCHIJA | forgelin          | 1.8.4         | Forgelin-1.8.4.jar                            | None                                     |
+	| LCHIJA | futuremc          | 0.2.4.1       | future-mc-1.12.2-0.2.4.1.jar                  | None                                     |
+	| LCHIJA | patchouli         | 1.0-23.6      | Patchouli-1.0-23.6.jar                        | None                                     |
+	| LCHIJA | pyrotech          | 1.12.2-1.5.7  | pyrotech-1.12.2-1.5.7.jar                     | None                                     |
+
+	Loaded coremods (and transformers): 
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+ItemPatchingLoader (ItemPhysic_Full_1.4.34_mc1.12.2.jar)
+  com.creativemd.itemphysic.ItemTransformer
+CreativePatchingLoader (CreativeCore_v1.10.34_mc1.12.2.jar)
+  
+FutureMC (future-mc-1.12.2-0.2.4.1.jar)
+  thedarkcolour.futuremc.asm.CoreTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Patchouli open book context: n/a
+	Launched Version: 1.12.2-forge-14.23.5.2854
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: SWRS 3D MODELS
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 12
+	Mipmaps: 2
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 461.09
+	OpenGlRenderer: GeForce RTX 2070 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8
