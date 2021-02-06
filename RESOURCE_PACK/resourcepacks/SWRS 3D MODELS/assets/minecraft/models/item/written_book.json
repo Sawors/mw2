@@ -1,6 +1,6 @@
 {
-   "parent": "minecraft:item/book",
+   "parent": "minecraft:item/_book",
    "textures": {
-       "0": "minecraft:item/book_written"
+       "0": "minecraft:items/book_written"
    }
 }

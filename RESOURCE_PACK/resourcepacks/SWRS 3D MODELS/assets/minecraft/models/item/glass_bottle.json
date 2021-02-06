@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Sawors",
 	"textures": {
-		"0": "item/potion_bottle",
-		"2": "item/oak_planks",
-		"particle": "item/potion_bottle"
+		"0": "items/potion_bottle",
+		"2": "items/oak_planks",
+		"particle": "items/potion_bottle"
 	},
 	"elements": [
 		{

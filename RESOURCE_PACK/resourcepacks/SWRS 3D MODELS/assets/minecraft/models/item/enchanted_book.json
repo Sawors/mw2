@@ -1,6 +1,7 @@
 {
-   "parent": "minecraft:item/book",
-   "textures": {
-       "0": "minecraft:item/enchanted_books/default_enchanted_book"
-   }
+	"credit": "Made by Sawors",
+	"parent": "minecraft:item/_book",
+	"textures": {
+		"0": "items/enchanted_books/default_enchanted_book"
+	}
 }

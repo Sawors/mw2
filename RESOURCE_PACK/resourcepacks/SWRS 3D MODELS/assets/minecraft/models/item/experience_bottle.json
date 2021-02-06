@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Sawors",
 	"textures": {
-		"2": "item/oak_planks",
-		"4": "item/experience_intern"
+		"2": "items/oak_planks",
+		"4": "items/experience_intern"
 	},
 	"elements": [
 		{

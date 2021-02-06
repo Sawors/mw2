@@ -4,6 +4,6 @@
     "vanillaRendering": false,
     "rotateSpeed": 0.0,
     "showPickupTooltip": false,
-    "disableThrowHUD": true
+    "disableThrowHUD": false
   }
 }

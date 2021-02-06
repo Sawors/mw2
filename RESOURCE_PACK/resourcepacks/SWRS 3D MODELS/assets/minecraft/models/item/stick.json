@@ -1,7 +1,7 @@
 {
 	"credit": "Made by Sawors",
 	"textures": {
-		"particle": "item/oak_planks"
+		"particle": "items/oak_planks"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Sawors",
 	"textures": {
-		"0": "item/bucket_empty",
-		"particle": "item/bucket_empty"
+		"0": "items/bucket_empty",
+		"particle": "items/bucket_empty"
 	},
 	"elements": [
 		{

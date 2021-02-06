@@ -1,0 +1,64 @@
+{
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2021-02-02 17:52:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2021-02-02 17:52:49 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2021-02-02 17:49:08 +0100",
+      "alps_foothills": "2021-02-02 17:48:10 +0100",
+      "lush_swamp": "2021-02-02 17:48:48 +0100",
+      "gravel_beach": "2021-02-02 17:49:07 +0100",
+      "grove": "2021-02-02 17:51:04 +0100",
+      "lavender_fields": "2021-02-02 17:48:31 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-02-02 17:52:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2021-02-02 17:52:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2021-02-02 17:52:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2021-02-02 17:47:31 +0100",
+      "frozen_river": "2021-02-02 17:47:36 +0100",
+      "deep_ocean": "2021-02-02 17:48:45 +0100",
+      "beaches": "2021-02-02 17:48:38 +0100",
+      "plains": "2021-02-02 17:49:37 +0100",
+      "taiga": "2021-02-02 17:46:06 +0100",
+      "taiga_hills": "2021-02-02 17:45:58 +0100",
+      "taiga_cold": "2021-02-02 17:48:03 +0100",
+      "ocean": "2021-02-02 17:48:56 +0100",
+      "river": "2021-02-02 17:48:02 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2021-02-02 17:52:49 +0100"
+    },
+    "done": true
+  }
+}

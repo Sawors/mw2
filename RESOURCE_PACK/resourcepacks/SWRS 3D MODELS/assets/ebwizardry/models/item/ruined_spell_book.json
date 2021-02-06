@@ -1,5 +1,5 @@
 {
-   "parent": "minecraft:item/book",
+   "parent": "minecraft:item/_book",
    "textures": {
        "0": "ebwizardry:item/ruined_spell_book"
    }
