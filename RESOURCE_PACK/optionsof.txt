@@ -5,7 +5,7 @@ ofOcclusionFancy:false
 ofSmoothFps:true
 ofSmoothWorld:false
 ofAoLevel:1.0
-ofClouds:2
+ofClouds:3
 ofCloudsHeight:0.0
 ofTrees:2
 ofDroppedItems:0

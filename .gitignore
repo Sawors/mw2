@@ -30,3 +30,15 @@ MODPACK/config/ichunutil.cfg
 MODPACK/config/InvTweaks.cfg
 MODPACK/config/jei/worldSettings.cfg
 MODPACK/config/splash.properties
+RESOURCE_PACK/.mixin.out
+RESOURCE_PACK/crash-reports
+RESOURCE_PACK/logs
+RESOURCE_PACK/saves/*
+!RESOURCE_PACK/saves/Blocks to make
+RESOURCE_PACK/dropt.log
+RESOURCE_PACK/options.txt
+RESOURCE_PACK/optionsof.txt
+RESOURCE_PACK/optionsshader.txt
+RESOURCE_PACK/server.dat
+RESOURCE_PACK/usercache.json
+RESOURCE_PACK/usernamecache.json
