@@ -1,5 +1,5 @@
-#Mon Feb 01 02:18:47 CET 2021
-shaderPack=SEUSRenewed
+#Mon Feb 08 23:25:00 CET 2021
+shaderPack=Complementary Shaders (v3.10)
 antialiasingLevel=0
 normalMapEnabled=false
 specularMapEnabled=false

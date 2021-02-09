@@ -17,10 +17,12 @@
         "pyrotech:adapt/stone",
         "pyrotech:bloom/bloom",
         "pyrotech:bloom/tongs",
-        "pyrotech:bloom/slag"
+        "pyrotech:bloom/slag",
+        "pyrotech:survive/rocks"
       ],
       "bookmarks": [],
       "history": [
+        "pyrotech:survive/rocks",
         "pyrotech:bloom/slag",
         "pyrotech:bloom/tongs",
         "pyrotech:bloom/bloom",
@@ -32,8 +34,7 @@
         "pyrotech:innovate/stone_bricks",
         "pyrotech:innovate/stone_brick",
         "pyrotech:survive/worktable",
-        "pyrotech:gather/sticks",
-        "pyrotech:survive/campfire"
+        "pyrotech:gather/sticks"
       ],
       "completedManualQuests": []
     }
