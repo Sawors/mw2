@@ -106,6 +106,7 @@
     "criteria": {
       "alps_foothills": "2021-02-02 21:53:16 +0100",
       "cold_desert": "2021-02-02 17:54:12 +0100",
+      "snowy_forest": "2021-02-10 20:38:40 +0100",
       "prairie": "2021-02-02 17:54:29 +0100",
       "tundra": "2021-02-02 21:50:45 +0100",
       "gravel_beach": "2021-02-02 18:42:05 +0100"
@@ -183,12 +184,6 @@
     },
     "done": true
   },
-  "pyrotech:stone": {
-    "criteria": {
-      "stone": "2021-02-02 18:32:17 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2021-02-06 13:55:47 +0100"
@@ -198,6 +193,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-02-06 13:59:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
     },
     "done": true
   },
@@ -261,6 +262,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2021-02-02 18:32:14 +0100"
@@ -285,15 +292,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2021-02-02 18:32:14 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
     "criteria": {
       "has_gravel": "2021-02-02 19:08:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
     },
     "done": true
   },
@@ -357,6 +382,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-02-10 20:32:12 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_jacaranda": {
     "criteria": {
       "entered_water": "2021-02-02 17:54:04 +0100"
@@ -378,21 +409,9 @@
     },
     "done": false
   },
-  "pyrotech:root": {
-    "criteria": {
-      "mod_item": "2021-02-06 14:00:00 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2021-02-02 18:32:14 +0100"
-    },
-    "done": true
-  },
-  "pyrotech:cobblestone": {
-    "criteria": {
-      "cobblestone": "2021-02-02 19:08:33 +0100"
     },
     "done": true
   },

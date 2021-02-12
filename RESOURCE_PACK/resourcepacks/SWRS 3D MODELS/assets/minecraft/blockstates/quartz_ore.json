@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": [
+					{"model": "quartz_ore", "y": 0, "weight": 1},
+					{"model": "quartz_ore", "y": 180, "weight": 1}
+					]
+    }
+}

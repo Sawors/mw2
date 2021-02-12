@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2021-02-13 00:02:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_red_flower": "2021-01-05 17:28:19 +0100"
@@ -266,6 +272,12 @@
   "biomesoplenty:recipes/transportation/boat_ethereal": {
     "criteria": {
       "entered_water": "2021-01-17 17:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2021-02-12 21:15:02 +0100"
     },
     "done": true
   },
@@ -502,6 +514,12 @@
       "has_brick_block": "2021-01-05 17:27:06 +0100"
     },
     "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "visceral_heap": "2021-02-12 22:22:41 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
@@ -1525,6 +1543,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-02-12 22:07:56 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:42 +0100"
@@ -1948,7 +1972,8 @@
   "ebwizardry:all_artefacts": {
     "criteria": {
       "charm_minion_health": "2021-01-31 18:48:54 +0100",
-      "amulet_absorption": "2021-01-17 21:41:19 +0100"
+      "amulet_absorption": "2021-01-17 21:41:19 +0100",
+      "charm_light": "2021-02-10 16:12:14 +0100"
     },
     "done": false
   },
@@ -2063,6 +2088,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2021-02-01 16:20:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-02-12 22:07:56 +0100"
     },
     "done": true
   },
