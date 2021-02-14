@@ -5,6 +5,7 @@
 		"2": "blocks/redstone_crystal",
 		"particle": "blocks/stone"
 	},
+	"ambientocclusion": false,
 	"elements": [
 		{
 			"name": "Rosh",

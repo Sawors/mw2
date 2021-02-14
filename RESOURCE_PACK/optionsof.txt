@@ -1,6 +1,6 @@
-ofFogType:3
+ofFogType:2
 ofFogStart:0.8
-ofMipmapType:0
+ofMipmapType:3
 ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:false

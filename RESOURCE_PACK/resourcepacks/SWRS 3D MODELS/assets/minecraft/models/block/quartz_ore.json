@@ -5,6 +5,7 @@
 		"1": "blocks/netherrack",
 		"particle": "blocks/netherrack"
 	},
+	"ambientocclusion": false,
 	"elements": [
 		{
 			"from": [0, 0, 0],

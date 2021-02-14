@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["SWRS 3D MODELS"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -90,13 +90,13 @@ key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :0
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_next:0
-key_roots.keybinds.spell_slot_previous:0
 key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_2:0
-key_roots.keybinds.spell_slot_3:0
-key_roots.keybinds.spell_slot_5:0
 key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_next:0
+key_roots.keybinds.spell_slot_5:0
+key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_previous:0
+key_roots.keybinds.spell_slot_2:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -115,8 +115,6 @@ key_quark.emote.dab:12
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -124,6 +122,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.auginter.skipAnimation:-97
@@ -196,9 +196,6 @@ key_key.metamorph.morph.next_var:43
 key_key.metamorph.morph.prev_var:40
 key_key.metamorph.morph.select:28
 key_key.metamorph.morph.demorph:52
-key_key.menu:50
-key_key.villages:47
-key_key.escorts:34
 key_xreliquary.keybind.fortune_coin:11
 key_key.toolbelt.open:-96
 key_key.toolbelt.cycle.left:0

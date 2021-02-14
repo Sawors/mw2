@@ -571,8 +571,8 @@ void main(){
 	if (mc_Entity.x == 300) // Lectern
 		color.a = 1.0;
 
-	if (mc_Entity.x == 12345) // Custom Emissive
-		mat = 4.0, lmCoord.x = 1.0;
+	//if (mc_Entity.x == 12345) // Custom Emissive
+	//	mat = 0.1, lmCoord.x = 1.0;
 
 	#if !defined COMPATIBILITY_MODE && defined ADVANCED_MATERIALS
 		if (mc_Entity.x == 91) // Glowstone
@@ -631,11 +631,11 @@ void main(){
 			eminMat = 13.0;
 
 		// Too bright near a light source fix
-		if (mc_Entity.x == 99 || mc_Entity.x == 991 || mc_Entity.x == 919 || mc_Entity.x == 993)
+		if (mc_Entity.x == 99 || mc_Entity.x == 991 || mc_Entity.x == 919 || mc_Entity.x == 993 || mc_Entity.x == 12345)
 			lmCoord.x = clamp(lmCoord.x, 0.0, 0.87);
 		
 		// No shading
-		if (mc_Entity.x == 91 || mc_Entity.x == 901 || mc_Entity.x == 92 || mc_Entity.x == 97 || mc_Entity.x == 191 || mc_Entity.x == 917)
+		if (mc_Entity.x == 91 || mc_Entity.x == 901 || mc_Entity.x == 92 || mc_Entity.x == 97 || mc_Entity.x == 191 || mc_Entity.x == 917 || mc_Entity.x == 12345)
 			quarterNdotUfactor = 0.0;
 
 		#ifdef WRONG_MIPMAP_FIX

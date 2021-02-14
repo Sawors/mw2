@@ -1,15 +1,13 @@
-#Mon Jan 25 12:57:04 CET 2021
+#Sun Feb 14 11:16:06 CET 2021
 Colorboost=0.04
 Dof_Distance_View=512
 DoF_Strength=60
-Fog=false
 Lens_Flares=true
 MB_strength=0.008
 Moonlight=0.0
 Moonshading=false
 POM=true
 uFogDensity=20.0
-Underwater_Fog=false
 Waving_Fire=false
 Waving_Lava=false
 Waving_Vines=false

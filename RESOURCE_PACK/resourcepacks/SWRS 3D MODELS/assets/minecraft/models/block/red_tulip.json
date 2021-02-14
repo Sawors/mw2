@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Sawors",
+	"parent": "block/_tulip",
+	"textures": {
+		"1": "blocks/flower_tulip_red",
+		"particle": "blocks/flower_tulip_red"
+	}
+}
