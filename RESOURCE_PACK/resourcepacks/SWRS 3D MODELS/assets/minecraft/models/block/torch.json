@@ -1,0 +1,121 @@
+{
+	"credit": "Made by Sawors",
+	"textures": {
+		"flame": "minecraft:blocks/void_texture",
+		"holder": "minecraft:blocks/anvil_base",
+		"damages": "minecraft:blocks/destroy_stage_1",
+		"particle": "#torch",
+		"torch": "#torch"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#torch"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#torch"}
+			}
+		},
+		{
+			"name": "FLAME1",
+			"from": [6.99, 8, 6],
+			"to": [6.99, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#flame"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flame"}
+			}
+		},
+		{
+			"from": [6, 8, 6.99],
+			"to": [10, 12, 6.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#flame"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flame"}
+			}
+		},
+		{
+			"from": [9.01, 8, 6],
+			"to": [9.01, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#flame"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flame"}
+			}
+		},
+		{
+			"from": [6, 8, 9.01],
+			"to": [10, 12, 9.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#flame"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#flame"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#flame"}
+			}
+		},
+		{
+			"from": [6.5, 5, 6.5],
+			"to": [9.5, 8, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 15, 17]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#holder"},
+				"east": {"uv": [0, 0, 3, 3], "texture": "#holder"},
+				"south": {"uv": [0, 0, 3, 3], "texture": "#holder"},
+				"west": {"uv": [0, 0, 3, 3], "texture": "#holder"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#holder"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#holder"}
+			}
+		},
+		{
+			"from": [6, -0.01, 6],
+			"to": [10, 0.99, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 10, 17]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 1], "texture": "#holder"},
+				"east": {"uv": [0, 0, 4, 1], "texture": "#holder"},
+				"south": {"uv": [0, 0, 4, 1], "texture": "#holder"},
+				"west": {"uv": [0, 0, 4, 1], "texture": "#holder"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#holder"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#holder"}
+			}
+		},
+		{
+			"from": [3, 0.01, 3],
+			"to": [13, 0.01, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 8, 17]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 6, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 6, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 6, 0], "texture": "#missing"},
+				"up": {"uv": [4, 3, 14, 13], "texture": "#damages"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#damages"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "group",
+			"origin": [8, 10, 9],
+			"children": [
+				{
+					"name": "group",
+					"origin": [8, 10, 9],
+					"children": [1, 2, 3, 4]
+				}, 5, 6, 7]
+		}
+	]
+}

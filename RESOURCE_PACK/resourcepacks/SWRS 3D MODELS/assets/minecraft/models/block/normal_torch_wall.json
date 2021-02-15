@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Sawors",
+	"parent": "minecraft:block/torch_wall",
+	"textures": {
+		"torch": "blocks/torch_on",
+		"flame": "blocks/torch_flame"
+		}
+}
