@@ -25,7 +25,7 @@
 			"to": [12, 16.01, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [12, 23, 13]},
 			"faces": {
-				"north": {"uv": [0, 0, 9, 0], "texture": "#missing", "cullface": "north"},
+				"north": {"uv": [0, 0, 9, 0], "texture": "#missing"},
 				"east": {"uv": [0, 0, 9, 0], "texture": "#missing"},
 				"south": {"uv": [0, 0, 9, 0], "texture": "#missing"},
 				"west": {"uv": [0, 0, 9, 0], "texture": "#missing"},
@@ -38,7 +38,7 @@
 			"to": [12, 16, 4],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16, 4]},
 			"faces": {
-				"north": {"uv": [4, 1, 12, 4], "rotation": 180, "texture": "#3", "cullface": "north"},
+				"north": {"uv": [4, 1, 12, 4], "rotation": 180, "texture": "#3"},
 				"east": {"uv": [0, 0, 9, 0], "rotation": 90, "texture": "#0"},
 				"south": {"uv": [12, 1, 4, 4], "rotation": 180, "texture": "#3"},
 				"west": {"uv": [0, 0, 9, 0], "rotation": 270, "texture": "#0"},
@@ -51,7 +51,7 @@
 			"to": [12, 16, 12],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [12, 16, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 9, 0], "rotation": 270, "texture": "#0", "cullface": "north"},
+				"north": {"uv": [0, 0, 9, 0], "rotation": 270, "texture": "#0"},
 				"east": {"uv": [12, 4, 15, 12], "rotation": 90, "texture": "#3"},
 				"south": {"uv": [0, 0, 9, 0], "rotation": 90, "texture": "#0"},
 				"west": {"uv": [12, 12, 15, 4], "rotation": 90, "texture": "#3"},
@@ -64,7 +64,7 @@
 			"to": [12, 16, 12],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 16, 12]},
 			"faces": {
-				"north": {"uv": [12, 12, 4, 15], "texture": "#3", "cullface": "north"},
+				"north": {"uv": [12, 12, 4, 15], "texture": "#3"},
 				"east": {"uv": [0, 0, 9, 0], "rotation": 270, "texture": "#3"},
 				"south": {"uv": [4, 12, 12, 15], "texture": "#3"},
 				"west": {"uv": [0, 0, 4, 0], "rotation": 90, "texture": "#3"},
@@ -77,7 +77,7 @@
 			"to": [4, 16, 12],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 16, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 4, 0], "rotation": 90, "texture": "#3", "cullface": "north"},
+				"north": {"uv": [0, 0, 4, 0], "rotation": 90, "texture": "#3"},
 				"east": {"uv": [1, 12, 4, 4], "rotation": 270, "texture": "#3"},
 				"south": {"uv": [0, 0, 9, 0], "rotation": 270, "texture": "#3"},
 				"west": {"uv": [1, 4, 4, 12], "rotation": 270, "texture": "#3"},

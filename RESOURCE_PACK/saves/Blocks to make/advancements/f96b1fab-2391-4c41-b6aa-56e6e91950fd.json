@@ -227,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2021-02-15 15:10:40 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/magic_planks": {
     "criteria": {
       "has_log": "2021-02-06 21:10:43 +0100"
@@ -374,6 +380,12 @@
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2021-02-07 22:50:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
     },
     "done": true
   },
@@ -1309,6 +1321,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2021-02-02 13:45:18 +0100"
@@ -1318,6 +1336,12 @@
   "biomesoplenty:recipes/buildingblocks/redwood_stairs": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
     },
     "done": true
   },
@@ -1528,6 +1552,12 @@
   "biomesoplenty:recipes/misc/red_dye_from_rafflesia": {
     "criteria": {
       "has_flower": "2021-01-17 14:12:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
     },
     "done": true
   },
@@ -1957,6 +1987,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2021-01-06 11:28:13 +0100"
@@ -2088,6 +2124,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2021-01-16 23:02:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
     },
     "done": true
   },
@@ -2416,6 +2458,12 @@
   "biomesoplenty:recipes/misc/black_dye_from_deathbloom": {
     "criteria": {
       "has_flower": "2021-01-17 14:12:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2021-02-15 15:10:36 +0100"
     },
     "done": true
   },
