@@ -3,7 +3,6 @@
 	"textures": {
 		"flame": "minecraft:blocks/void_texture",
 		"holder": "minecraft:blocks/anvil_base",
-		"damages": "minecraft:blocks/destroy_stage_1",
 		"particle": "#torch",
 		"torch": "#torch"
 	},
@@ -90,19 +89,6 @@
 				"west": {"uv": [0, 0, 4, 1], "texture": "#holder"},
 				"up": {"uv": [0, 0, 4, 4], "texture": "#holder"},
 				"down": {"uv": [0, 0, 4, 4], "texture": "#holder"}
-			}
-		},
-		{
-			"from": [3, 0.01, 3],
-			"to": [13, 0.01, 13],
-			"rotation": {"angle": 0, "axis": "y", "origin": [17, 8, 17]},
-			"faces": {
-				"north": {"uv": [0, 0, 6, 0], "texture": "#missing"},
-				"east": {"uv": [0, 0, 6, 0], "texture": "#missing"},
-				"south": {"uv": [0, 0, 6, 0], "texture": "#missing"},
-				"west": {"uv": [0, 0, 6, 0], "texture": "#missing"},
-				"up": {"uv": [4, 3, 14, 13], "texture": "#damages"},
-				"down": {"uv": [0, 0, 6, 6], "texture": "#damages"}
 			}
 		}
 	],

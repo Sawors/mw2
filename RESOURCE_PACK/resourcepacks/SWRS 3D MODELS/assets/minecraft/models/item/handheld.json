@@ -12,14 +12,14 @@
             "scale": [ 0.85, 0.85, 0.85 ]
         },
         "firstperson_righthand": {
-            "rotation": [ 0, -90, 25 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 0.68, 0.68, 0.68 ]
+            "rotation": [ -48, -48, -24 ],
+            "translation": [ -4, 3, -2],
+            "scale": [ 1, 1, 1 ]
         },
         "firstperson_lefthand": {
-            "rotation": [ 0, 90, -25 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 0.68, 0.68, 0.68 ]
+            "rotation": [ -32, 130, 12 ],
+            "translation": [ 4, 2, -4],
+            "scale": [ 1, 1, 1 ]
         },
 		"ground":{
 			"rotation": [ 90, 0, 45 ],
