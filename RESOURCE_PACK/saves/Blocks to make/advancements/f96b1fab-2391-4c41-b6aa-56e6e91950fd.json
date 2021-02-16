@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
@@ -413,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2021-02-16 19:57:52 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2021-02-07 22:50:52 +0100"
@@ -542,6 +554,12 @@
   "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
       "has_brick_block": "2021-01-05 17:27:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -907,6 +925,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/purple_dye_from_violet": {
     "criteria": {
       "has_flower": "2021-01-17 14:15:28 +0100"
@@ -1024,6 +1048,12 @@
   "biomesoplenty:recipes/redstone/wooden_pressure_plate_from_bop_wood": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -1216,6 +1246,12 @@
   "biomesoplenty:recipes/misc/ruby": {
     "criteria": {
       "has_gem_block": "2021-02-06 21:09:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -1513,6 +1549,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2021-02-16 10:09:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-02-01 17:45:29 +0100"
@@ -1528,6 +1576,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2021-02-06 20:36:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -1564,6 +1618,12 @@
   "biomesoplenty:recipes/buildingblocks/white_sandstone_slab": {
     "criteria": {
       "has_sandstone": "2021-02-06 21:08:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -1606,6 +1666,12 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2021-01-05 17:26:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -1711,6 +1777,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2021-01-16 22:31:02 +0100"
@@ -1771,6 +1843,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2021-02-07 22:50:51 +0100"
@@ -1828,6 +1906,12 @@
   "biomesoplenty:recipes/redstone/pine_door": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -2002,6 +2086,12 @@
   "minecraft:recipes/decorations/green_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-01-07 17:51:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -2223,6 +2313,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2021-02-06 19:15:35 +0100"
@@ -2331,6 +2427,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/magic_wooden_slab": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:44 +0100"
@@ -2361,6 +2463,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "ebwizardry:all_spells": {
     "criteria": {
       "greater_fireball": "2021-02-14 18:30:25 +0100",
@@ -2380,6 +2488,12 @@
   "ebwizardry:handbook/elements": {
     "criteria": {
       "ice": "2021-01-31 18:36:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
     },
     "done": true
   },
@@ -2524,6 +2638,12 @@
   "biomesoplenty:recipes/redstone/redwood_fence_gate": {
     "criteria": {
       "has_planks": "2021-02-06 21:11:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2021-02-16 10:09:05 +0100"
     },
     "done": true
   },
@@ -2791,6 +2911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2021-02-16 20:01:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2021-02-06 20:36:26 +0100"
@@ -2842,6 +2968,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2021-02-06 20:36:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2021-02-16 10:09:04 +0100"
     },
     "done": true
   },
