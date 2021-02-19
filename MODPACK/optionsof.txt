@@ -7,8 +7,8 @@ ofSmoothWorld:false
 ofAoLevel:1.0
 ofClouds:3
 ofCloudsHeight:1.0
-ofTrees:2
-ofDroppedItems:2
+ofTrees:1
+ofDroppedItems:1
 ofRain:2
 ofAnimatedWater:0
 ofAnimatedLava:0
@@ -65,8 +65,8 @@ ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:true
-ofFullscreenMode:2560x1080
+ofFullscreenMode:Default
 ofFastMath:false
 ofFastRender:false
-ofTranslucentBlocks:2
+ofTranslucentBlocks:1
 key_of.key.zoom:0

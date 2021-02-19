@@ -1,4 +1,4 @@
-ofFogType:2
+ofFogType:3
 ofFogStart:0.8
 ofMipmapType:3
 ofOcclusionFancy:false
@@ -30,8 +30,8 @@ ofRainSplash:true
 ofLagometer:true
 ofShowFps:true
 ofAutoSaveTicks:4000
-ofBetterGrass:1
-ofConnectedTextures:2
+ofBetterGrass:3
+ofConnectedTextures:1
 ofWeather:true
 ofSky:true
 ofStars:true
@@ -66,7 +66,7 @@ ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:true
 ofFullscreenMode:3440x1440
-ofFastMath:false
+ofFastMath:true
 ofFastRender:false
 ofTranslucentBlocks:2
 key_of.key.zoom:46

@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Sawors",
+	"parent": "item/_ball",
+	"textures": {
+		"particle": "blocks/slime",
+		"core": "blocks/slime"
+	}
+}

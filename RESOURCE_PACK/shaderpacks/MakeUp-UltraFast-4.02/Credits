@@ -1,0 +1,38 @@
+Some of the code is inspired by the ideas presented below:
+
+------
+
+- Enhanced ambient occlusion is based on Capt Tatsu's ambient occlusion used in
+BSL Shaders:
+  https://bitslablab.com/bslshaders/
+
+- Interleaved noise from:
+"NEXT GENERATION POST PROCESSING IN CALL OF DUTY: ADVANCED WARFARE"
+http://advances.realtimerendering.com/s2014/index.html
+
+- Integer Hash by iq from:
+https://www.shadertoy.com/view/4tXyWN
+
+- TAA is based on Erkaman's TAA simple implementation:
+  https://gist.github.com/Erkaman
+
+- Phi noise by TinyTexel
+ https://www.shadertoy.com/view/wltSDn
+ Based on:
+ http://extremelearning.com.au/unreasonable-effectiveness-of-quasirandom-sequences/
+
+------
+
+If any functions were listed here, and are no longer listed,
+they have been removed or replaced by own functions.
+
+------
+
+I am not a graphics developer, I made this shader out of curiosity and
+my personal use, but I think it is good enough to be shared.
+
+I have not copied (not exactly), but have tried to learn, adapt and modify
+other people's ideas in favor of the shader.
+
+If you think I have violated your copyright, please notify me.
+javierg.cim at gmail.com

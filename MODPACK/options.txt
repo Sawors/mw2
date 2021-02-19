@@ -90,13 +90,14 @@ key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :0
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_1:0
-key_roots.keybinds.spell_slot_next:0
 key_roots.keybinds.spell_slot_5:0
-key_roots.keybinds.spell_slot_3:0
 key_roots.keybinds.spell_slot_previous:0
 key_roots.keybinds.spell_slot_2:0
+key_roots.keybinds.spell_slot_4:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_next:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,7 +123,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_arcanearchives.gui.keybinds.manifest:0
