@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 6
+BiomeSize: 5
 
 BiomeRarity: 65
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:frozen_ocean
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 6
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 65
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

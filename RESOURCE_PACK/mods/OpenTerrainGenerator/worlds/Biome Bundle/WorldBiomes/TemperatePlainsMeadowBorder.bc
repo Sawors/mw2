@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 11
+BiomeSize: 5
 
 BiomeRarity: 99
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:plains
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 99
 
@@ -42,7 +42,7 @@ BiomeIsBorder: TemperatePlainsMeadow
 
 NotBorderNear: TemperatePlainsOakgrove, TemperatePlainsOakgroveBorder, WoodlandBorder, TemperateLowlandsEdge, Flower Forest, TemperatePlainsAutumnal
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

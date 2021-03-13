@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 8
+BiomeSize: 5
 
 BiomeRarity: 97
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:desert
 
 IsleInBiome: Desert M, Desert, DesertLowlands, DesertLowlandsOasis, DesertCanyon, DesertCanyonHigh, DesertCanyonMid
 
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 80
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 9
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

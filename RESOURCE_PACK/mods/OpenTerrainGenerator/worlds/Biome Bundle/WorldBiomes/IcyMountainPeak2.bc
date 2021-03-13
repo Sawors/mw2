@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 11
+BiomeSize: 5
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:mutated_taiga_cold
 
 IsleInBiome: IcyMountains, SnowyMesaRocks, SnowyMesa, Glacier
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

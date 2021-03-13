@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 9
+BiomeSize: 5
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:savanna
 
 IsleInBiome: Desert Cliffs
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

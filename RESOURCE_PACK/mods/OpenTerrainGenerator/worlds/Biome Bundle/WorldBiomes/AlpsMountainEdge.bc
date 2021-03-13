@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 75
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:taiga_cold
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 75
 
@@ -42,7 +42,7 @@ BiomeIsBorder: AlpsMountain1
 
 NotBorderNear: AlpsMountainPeak, AlpsMountainPeak2, AlpsMountainHighlands
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

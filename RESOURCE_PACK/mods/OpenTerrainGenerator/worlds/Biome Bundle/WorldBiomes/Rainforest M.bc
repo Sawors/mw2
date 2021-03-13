@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 11
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:jungle
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Rainforest Plateau
 
 NotBorderNear: Rainforest Plateau Low, Rainforest Plateau M, Rocks
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

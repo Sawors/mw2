@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:mutated_mesa
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Mesa (Bryce), MesaVerdeCanyonMid
 
 NotBorderNear: DesertOasis, DesertSmall, MesaVerdeCanyonHigh, Mesa Rock, MesaPeak, Mesa Plateau, MonumentSmall, Mesa (Bryce) Forest, MesaPaintedCanyon
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 70
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:jungle
 
 IsleInBiome: DesertOasis, Jungle, DesertTropical
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 70
 
@@ -42,7 +42,7 @@ BiomeIsBorder: JungleHills, JungleCliffsCanyon, DesertTropical
 
 NotBorderNear: JungleLowlands, Jungle M, Ocean, Jungle, RainforestTropical, JungleLonePeak, JungleLowlands, TropicalMountain, DesertMountain, DesertTropical
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

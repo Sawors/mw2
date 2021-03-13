@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 8
+BiomeSize: 5
 
 BiomeRarity: 82
 
@@ -32,7 +32,7 @@ IsleInBiome: Ocean
 
 BiomeSizeWhenIsle: 4
 
-BiomeRarityWhenIsle: 80
+BiomeRarityWhenIsle: 60
 
 ######################
 # Border biomes only #

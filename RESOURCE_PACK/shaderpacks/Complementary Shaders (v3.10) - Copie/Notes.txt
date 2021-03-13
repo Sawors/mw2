@@ -1,0 +1,22 @@
+Credits:
+ Capt Tatsu        - Most of Complementary completely relies on his brilliant work from BSL. And he is the one that gave me the idea of publishing Complementary. Complementary wouldn't exist without him
+ EminGT            - Me, the developer of Complementary.
+ Chocapic13        - Previous frame reprojection, Jitter offset (+ probably more)
+ Robobo1221        - Volumetric light
+ Horizon Zero Dawn - GGX area light approximation
+ Simon Rodriguez   - FXAA
+ fayer3            - End portal/gateway shader
+ Jessie            - Dithering
+ Builderb0y        - Vanilla Star Dedection
+ 
+Dimensions:
+ -1       NETHER    - Nether
+ 0        OVERWORLD - Overworld
+ 1        END       - End
+ 2 / -23  TWO       - The Midnight
+ 5 / 7    SEVEN     - Twilight Forest
+ 10       TEN       - The Beneath
+ 17       ONESEVEN  - Atum
+ 20       TWENTY    - The Betweenlands
+ -27..-31 <empty>   - Placeholder (Galacticraft)
+ 14676    <empty>   - Placeholder (Thaumic Augmentation)

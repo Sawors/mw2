@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 7
+BiomeSize: 5
 
 BiomeRarity: 99
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: Webbed Forest
 
 IsleInBiome: Webbed Forest
 
-BiomeSizeWhenIsle: 7
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 99
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 7
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

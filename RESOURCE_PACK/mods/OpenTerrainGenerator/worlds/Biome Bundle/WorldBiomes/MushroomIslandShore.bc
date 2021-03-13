@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 12
+BiomeSize: 5
 
 BiomeRarity: 50
 
@@ -30,9 +30,9 @@ ReplaceToBiomeName: minecraft:mushroom_island_shore
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 12
+BiomeSizeWhenIsle: 0
 
-BiomeRarityWhenIsle: 50
+BiomeRarityWhenIsle: 0
 
 ######################
 # Border biomes only #
@@ -42,7 +42,7 @@ BiomeIsBorder: MushroomIsland, GiantMushroomIsland
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 12
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

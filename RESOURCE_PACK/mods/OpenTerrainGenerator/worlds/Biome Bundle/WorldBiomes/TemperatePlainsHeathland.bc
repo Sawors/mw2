@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 9
+BiomeSize: 5
 
 BiomeRarity: 70
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:plains
 
 IsleInBiome: TemperatePlains, Forest, RockyPlains, TemperatePlainsM, Sunflower Plains, ForestGrandFir, Ocean Island, Redwood Forest, Plains
 
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 70
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 9
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

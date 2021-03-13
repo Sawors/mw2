@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 11
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:cold_beach
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: FrozenOcean
 
 NotBorderNear: Deep Ocean, Beach, Beach Desert, Stone Beach, TaigaSmall, RedwoodSmall, ForestGrandFirSmall, ForestDry, UplandsBlackSpruce, Mesa Sandstone, Alpine, Alps, Autumnal Woods, Birch Forest, Birch Meadow, BirchForestHighlands, BirchForestMountainRange, BirchForestRocky, Caverns, Desert, Desert Cliffs, Desert M, DesertFlats, DesertHills, DesertLowlands, DesertRed, DesertSmall, DesertTropical, Dry Plains, Extreme Hills, Extreme Hills Jungle, FloatingPlains, Flower Forest, Forest, Forest M, Forest Wetland, ForestBaldCypress, ForestConifer, ForestEnchanted, ForestEnder, ForestFirThicket, ForestGrandFir, ForestHills, ForestMountainRange, ForestPlateauRoofed, ForestPoplar, High Cliffs, Highlands, Jungle, JungleCliffs, JungleHighlands, JungleHills, Mangrove Forest, Marsh, Mega Taiga, Mega Taiga Hills, Mesa, Mesa (Bryce), Mesa Small, Mesa Verde, MonumentValley, Mountain Range, MountainSteps, MountainStepsGlacier, PlainsCliffM, Pumpkin Plains, Rainforest, Redwood Forest, RockyMountains, RockyPlains, Roofed Forest, Savanna, SavannaSmall, Steppe, Sunflower Plains, Swampland, Swampland M, SwamplandLarge, Taiga, TaigaHighlands, TemperateHills, TemperateLonePeak, TemperateLowlands, TemperatePlains, TemperatePlainsDarkMeadow, TemperatePlainsHeathland, TemperatePlainsM, TemperatePlainsMeadow, TemperatePlainsMeadowM, Tropical Savanna, TropicalPillars, Tundra, Uplands, DesertSmallRed, OceanCoral, MonumentMountains
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

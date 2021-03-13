@@ -1,0 +1,1 @@
+java -jar BlueMap-1.3.1-cli.jar -r -w -f

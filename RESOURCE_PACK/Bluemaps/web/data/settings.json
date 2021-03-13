@@ -1,0 +1,140 @@
+{
+  "useCookies": true,
+  "maps": {
+    "nether": {
+      "enabled": true,
+      "hires": {
+        "tileSize": {
+          "x": 32,
+          "z": 32
+        },
+        "scale": {
+          "x": 1,
+          "z": 1
+        },
+        "translate": {
+          "x": 2,
+          "z": 2
+        }
+      },
+      "lowres": {
+        "tileSize": {
+          "x": 400,
+          "z": 400
+        },
+        "scale": {
+          "x": 8,
+          "z": 8
+        },
+        "translate": {
+          "x": 4,
+          "z": 4
+        }
+      },
+      "startPos": {
+        "x": 936,
+        "z": -52
+      },
+      "world": "1c49a10f-dcbf-46e9-9159-9abe62d39093",
+      "ordinal": 2,
+      "skyColor": {
+        "r": 0.16078432,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "ambientLight": 0.6,
+      "name": "Nether",
+      "last-render": 1615410196722
+    },
+    "world": {
+      "enabled": true,
+      "hires": {
+        "tileSize": {
+          "x": 32,
+          "z": 32
+        },
+        "scale": {
+          "x": 1,
+          "z": 1
+        },
+        "translate": {
+          "x": 2,
+          "z": 2
+        }
+      },
+      "lowres": {
+        "tileSize": {
+          "x": 400,
+          "z": 400
+        },
+        "scale": {
+          "x": 8,
+          "z": 8
+        },
+        "translate": {
+          "x": 4,
+          "z": 4
+        }
+      },
+      "startPos": {
+        "x": 936,
+        "z": -52
+      },
+      "world": "c62c4a7d-e7ca-49a2-96ac-ca2bac90331a",
+      "ordinal": 0,
+      "skyColor": {
+        "r": 0.49019608,
+        "g": 0.67058825,
+        "b": 1.0
+      },
+      "ambientLight": 0.0,
+      "name": "World",
+      "last-render": 1615410196722
+    },
+    "end": {
+      "enabled": true,
+      "hires": {
+        "tileSize": {
+          "x": 32,
+          "z": 32
+        },
+        "scale": {
+          "x": 1,
+          "z": 1
+        },
+        "translate": {
+          "x": 2,
+          "z": 2
+        }
+      },
+      "lowres": {
+        "tileSize": {
+          "x": 400,
+          "z": 400
+        },
+        "scale": {
+          "x": 8,
+          "z": 8
+        },
+        "translate": {
+          "x": 4,
+          "z": 4
+        }
+      },
+      "startPos": {
+        "x": 936,
+        "z": -52
+      },
+      "world": "09929b66-faa5-42bf-be85-1f42b2be6687",
+      "ordinal": 1,
+      "skyColor": {
+        "r": 0.03137255,
+        "g": 0.0,
+        "b": 0.0627451
+      },
+      "ambientLight": 0.6,
+      "name": "End",
+      "last-render": 1615410196722
+    }
+  }
+}

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 90
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: Uplands
 
 IsleInBiome: DioriteCliffs
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: DioriteCliffs
 
 NotBorderNear: DioriteCliffsPeak, ForestBaldCypressSmall
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

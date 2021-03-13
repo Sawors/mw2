@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 9
+BiomeSize: 5
 
 BiomeRarity: 90
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:swampland
 
 IsleInBiome: SwamplandLarge, Swampland, Jungle, Marsh, Ocean Island, Swampland M, Mangrove Forest, Forest Wetland
 
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 90
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 9
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 8
+BiomeSize: 5
 
 BiomeRarity: 92
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:jungle
 
 IsleInBiome: Desert M, Ocean Island, DesertTropical, DesertRed, Tropical Savanna, Savanna, Tropical Savanna Canyon, DesertFlats, SavannaSmall, Desert, Mesa Sandstone
 
-BiomeSizeWhenIsle: 8
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 8
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

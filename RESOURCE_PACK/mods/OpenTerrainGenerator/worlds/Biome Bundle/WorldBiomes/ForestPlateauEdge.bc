@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: Uplands
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 7
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 40
 
@@ -42,7 +42,7 @@ BiomeIsBorder: ForestPlateauThicket
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 13
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

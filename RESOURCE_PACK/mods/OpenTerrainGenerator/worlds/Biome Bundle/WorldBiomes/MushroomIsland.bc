@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 7
+BiomeSize: 5
 
 BiomeRarity: 4
 
@@ -30,9 +30,9 @@ ReplaceToBiomeName: minecraft:mushroom_island
 
 IsleInBiome: Ocean, Deep Ocean
 
-BiomeSizeWhenIsle: 7
+BiomeSizeWhenIsle: 5
 
-BiomeRarityWhenIsle: 4
+BiomeRarityWhenIsle: 1
 
 ######################
 # Border biomes only #
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 7
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

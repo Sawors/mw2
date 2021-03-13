@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 95
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: SavannaEdge
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Desert M, DesertRed
 
 NotBorderNear: DesertMountain, DesertOasis, DesertOasisBorder, RiverTropical, Mesa, RedMountain, Ocean, Beach
 
-BiomeSizeWhenBorder: 9
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

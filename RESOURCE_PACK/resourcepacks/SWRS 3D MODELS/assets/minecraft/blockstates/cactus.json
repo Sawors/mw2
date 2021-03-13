@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "normal": [
+						{"model": "cactus", "weight": 4},
+						{"model": "cactus_flower_side", "y": 0, "weight": 1},
+						{"model": "cactus_flower_side", "y": 90, "weight": 1},
+						{"model": "cactus_flower_side", "y": 180, "weight": 1},
+						{"model": "cactus_flower_side", "y": 270, "weight": 1},
+						{"model": "cactus_flower_top", "weight": 2}
+					]
+				}
+}

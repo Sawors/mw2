@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 7
+BiomeSize: 5
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:deep_ocean
 
 IsleInBiome: Ocean
 
-BiomeSizeWhenIsle: 6
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

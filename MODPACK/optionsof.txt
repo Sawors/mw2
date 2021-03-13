@@ -7,7 +7,7 @@ ofSmoothWorld:false
 ofAoLevel:1.0
 ofClouds:3
 ofCloudsHeight:1.0
-ofTrees:1
+ofTrees:4
 ofDroppedItems:1
 ofRain:2
 ofAnimatedWater:0

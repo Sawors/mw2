@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 12
+BiomeSize: 5
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:stone_beach
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Ocean
 
 NotBorderNear: Glacier, FloatingPlains, JungleEdge, OceanDesertIsland, OceanIslandDesert, OceanRocks, OceanRocksM, RiverWetland, ForestBaldCypress, Alpine, RiverAlpine, FrozenOcean, Beach, Tundra, TemperateLowlands, FlyingForest, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, MushroomIsland, MushroomIslandShore, TemperatePlainsM, TemperatePlains, Roofed Forest, SavannaEdge, RainforestTropical, Archipelago, ArchipelagoMid, ArchipelagoHigh, RiverForest, Forest, Swampland, SwamplandLarge, Birch Forest, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, Mesa Small, FrozenRiver, GlacierM, Pumpkin Plains, TemperatePlainsMeadow, TemperatePlainsMeadowM, TemperatePlainsOakgrove, SnowyMesa, Cold Plains, Arctic, SnowyPlains, Alpine, IcyMountains, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, OceanForestHighlands, SwamplandBorder, Desert Cliffs, Desert Cliffs Edge, OceanCoral, ForestPeak, Desert, Mesa Sandstone, Mesa Sandstone Edge, GiantMushroomIsland, Beach Desert, TemperatePlainsAutumnal
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

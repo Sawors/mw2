@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 11
+BiomeSize: 5
 
 BiomeRarity: 97
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:roofed_forest
 
 IsleInBiome: Caverns, Caverns+
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 97
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 8
+BiomeSize: 5
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:taiga_cold
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder: IcyMountains
 
 NotBorderNear: IcyMountainPeak1, IcyMountainPeak2, SnowyMesa, Cold Plains, Arctic, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, SnowyPlainsM, SnowyLonePeak, Glacier
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

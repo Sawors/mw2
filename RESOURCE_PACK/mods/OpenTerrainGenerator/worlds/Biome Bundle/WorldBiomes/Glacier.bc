@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 6
+BiomeSize: 5
 
 BiomeRarity: 30
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:ice_flats
 
 IsleInBiome: Arctic
 
-BiomeSizeWhenIsle: 6
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 30
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

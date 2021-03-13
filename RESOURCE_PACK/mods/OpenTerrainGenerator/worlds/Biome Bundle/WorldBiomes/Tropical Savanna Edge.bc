@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 9
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:plains
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 50
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Tropical Savanna
 
 NotBorderNear: Tropical Savanna Canyon High, Tropical Savanna Canyon Mid, Tropical Savanna Canyon, Tropical Savanna Summit, DesertOasis, DesertBaobabs
 
-BiomeSizeWhenBorder: 11
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 10
+BiomeSize: 5
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:beaches
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 10
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Ocean
 
 NotBorderNear: Mega Taiga Hills, Mega Taiga Mountains, MountainStepsGlacierEdge1, MountainStepsGlacierEdge2, OceanPlateauLow, FloatingPlains, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, SavannaSmall, AlpineForest, SnowyMountains, IceWall, ForestPeak, OceanForestIsland, OceanDesertIsland, OceanPlateau, OceanPlateauM, ForestPlateau, OceanRocks, IcyMountains, FlyingForest, JungleEdge, RiverClay, ForestMountain, ForestMountainRange, RiverWetland, ForestBaldCypress, Alpine, AlpineM, Mega Spruce Taiga, RiverAlpine, FrozenOcean, SnowyPlains, Ice Plains, SnowyLonePeak, Taiga M, Cold Plains, PlainsCliff, PlainsCliffM, Mountain Range, ForestConiferSnow, ForestConifer, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, Stone Beach, ForestConifer, ForestEnchanted, ForestEnchantedBorder, MushroomIsland, MushroomIslandShore, Tundra, ForestEnchantedBorder, Roofed Forest, TemperateLowlandsEdge, ForestEnder, Mesa Verde Edge, Webbed Hills Edge, RainforestTropical, Archipelago, RiverForest, Taiga, ForestConifer, Arctic, TundraEdge, Ice Plains, Mesa Verde, Tropical Savanna, Mesa (Bryce), Mesa, Savanna, TemperateLonePeak, SnowyMesa, Glacier, Mesa Small, ColdForestFirThicket, Cold Taiga, Frozen Forest Edge, Frozen Forest, AlpineConiferSnow, TundraCliffs, TundraForest, OceanRocksDiorite, Drylands, OceanRocksDiorite, ForestLarch, Mega Taiga, TaigaSmall, DrylandsEdge2, Steppe, MountainStepsGlacier, RedwoodSmall, ArcticEdge, Desert Cliffs, Desert Cliffs Edge, OceanCoral, MesaWhite, Desert, Mesa Sandstone, Mesa Sandstone Edge, Alps, AlpsEdge, ColdTaigaBorder, SnowyMesaForest, SnowyMesaRocks, SnowyMesaEdge, ColdForestFirThicketEdge, RoofedForestEnchanted, GiantMushroomIsland, ForestGrandFir, DesertCanyonMid, DesertCanyonHigh, ForestFir, Webbed Forest, CliffsSmall, CliffsSmallEdge
 
-BiomeSizeWhenBorder: 10
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################

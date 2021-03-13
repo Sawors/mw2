@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 8
+BiomeSize: 5
 
 BiomeRarity: 85
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:taiga_cold
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 8
+BiomeSizeWhenIsle: 5
 
 BiomeRarityWhenIsle: 85
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 8
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################
