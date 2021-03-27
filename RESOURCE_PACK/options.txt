@@ -9,12 +9,12 @@ guiScale:5
 particles:0
 bobView:false
 anaglyph3d:false
-maxFps:60
+maxFps:70
 fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:false
+renderClouds:true
 resourcePacks:["SWRS 3D MODELS"]
 incompatibleResourcePacks:[]
 lastServer:
