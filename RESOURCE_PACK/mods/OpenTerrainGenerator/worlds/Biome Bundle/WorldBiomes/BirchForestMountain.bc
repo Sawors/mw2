@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 8
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: BirchForestMountainRange
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 8
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

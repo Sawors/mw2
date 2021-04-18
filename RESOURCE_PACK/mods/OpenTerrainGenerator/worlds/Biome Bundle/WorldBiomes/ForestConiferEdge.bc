@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 95
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: ForestConifer
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder: ForestConifer
 
 NotBorderNear: ForestConiferSnow, Tundra, ForestConiferMountain, RiverForestConifer, ForestConiferSnow2
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

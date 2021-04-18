@@ -30,7 +30,7 @@ ReplaceToBiomeName: Uplands
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 6
 
 BiomeRarityWhenIsle: 70
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 6
 
 
 #######################################################################

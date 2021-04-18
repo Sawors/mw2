@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 95
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:mesa_rock
 
 IsleInBiome: Mesa Plateau
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

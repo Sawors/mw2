@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 9
 
 BiomeRarity: 40
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: TemperatePlains, TemperateHills, Forest, Birch Forest, TemperatePlainsM, ForestHills, FloatingEdge, Forest M, ForestBaldCypress, ForestPlateau, Ocean Island, TropicalPillars, TemperatePlainsM, Flower Forest
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 9
 
 BiomeRarityWhenIsle: 40
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 9
 
 
 #######################################################################

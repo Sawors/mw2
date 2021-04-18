@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 8
 
 BiomeRarity: 94
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:taiga_cold_hills
 
 IsleInBiome: Cold Taiga
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 8
 
 BiomeRarityWhenIsle: 94
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

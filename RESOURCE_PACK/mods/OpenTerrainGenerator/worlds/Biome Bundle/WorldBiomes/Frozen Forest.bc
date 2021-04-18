@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 6
 
 BiomeRarity: 70
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName:
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 8
 
 BiomeRarityWhenIsle: 50
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 85
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: Beach, Stone Beach, RockyPlains, Forest, FloatingEdge, RiverForest, Ocean Island, RockyMountains, Flower Forest, OceanIslandDesert, ForestPoplar
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 85
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

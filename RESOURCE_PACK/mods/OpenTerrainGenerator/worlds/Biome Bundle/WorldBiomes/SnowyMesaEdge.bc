@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:mutated_ice_flats
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: SnowyMesa
 
 NotBorderNear: IcyMountainPeak1
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

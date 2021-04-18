@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 8
 
 BiomeRarity: 95
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:mesa_clear_rock
 
 IsleInBiome: Mesa, Mesa (Bryce)
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 8
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 92
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:desert
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 92
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Mesa Sandstone
 
 NotBorderNear: Mesa Sandstone Peak, MesaPaintedCanyon, DesertBaobabs, DesertOasis
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

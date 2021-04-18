@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 8
 
 BiomeRarity: 95
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:forest
 
 IsleInBiome: Forest, PlainsCliff, PlainsCliffM, ForestPlateau, ForestMountainRange, ForestHills, Roofed Forest, Ocean Island, Forest Wetland, Flower Forest, Sunflower Plains, Archipelago, High Cliffs, SwamplandLarge, RockyMountains, RockyHills
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 8
 
 BiomeRarityWhenIsle: 95
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

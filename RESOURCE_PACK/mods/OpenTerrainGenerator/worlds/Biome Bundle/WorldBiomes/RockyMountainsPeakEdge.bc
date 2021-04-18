@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 7
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 7
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: RockyMountainPeak1, RockyMountainPeak2
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 7
 
 
 #######################################################################

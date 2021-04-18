@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 12
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:jungle
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 12
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: FloatingJungle
 
 NotBorderNear: Ocean, River
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 12
 
 
 #######################################################################

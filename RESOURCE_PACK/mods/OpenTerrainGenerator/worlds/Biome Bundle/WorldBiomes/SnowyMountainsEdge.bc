@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 9
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 9
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: SnowyMesa, Cold Plains, Arctic, SnowyPlains, IcyMountains, Ice Plains, ColdForestFirThicket, Cold Taiga, Frozen Forest, Glacier
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################

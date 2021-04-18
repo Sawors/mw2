@@ -1,20 +1,20 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.57746476
-fov:0.2
+fov:0.875
 gamma:0.5070422
 saturation:0.0
 renderDistance:12
 guiScale:5
 particles:0
-bobView:false
+bobView:true
 anaglyph3d:false
-maxFps:70
+maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:["SWRS 3D MODELS"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -101,7 +101,7 @@ key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_key.pickup.item:0
 key_key.otghud.desc:24
-soundCategory_master:0.53642386
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

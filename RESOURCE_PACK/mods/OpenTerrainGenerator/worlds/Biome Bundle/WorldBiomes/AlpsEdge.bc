@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 9
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:extreme_hills
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 11
 
 BiomeRarityWhenIsle: 75
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Alps, ForestFir, Alpine
 
 NotBorderNear: AlpsMountain1, AlpsMountain2, AlpsForest, AlpsMountainHighlands, AlpsMountain3, AlpsMountainEdge2, AlpsMountainEdge, AlpsMountainPeak, AlpsMountainPeak2, ForestFirMountain, ForestFirMountainEdge1, ForestFirMountainEdge2, RockyPlainsSmall, TemperatePlainsOakgrove, AlpineConiferMountain, AlpineConiferSnow, AlpineForest, AlpineM, ColdForestFirThicket
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 11
 
 
 #######################################################################

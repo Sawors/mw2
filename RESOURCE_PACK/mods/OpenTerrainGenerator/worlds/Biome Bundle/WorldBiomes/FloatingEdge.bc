@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 12
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:forest
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 12
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: FloatingPlains, FlyingForest
 
 NotBorderNear: Ocean, River, RiverAlpine, RiverAutumnal, RiverBirchForest, RiverClay, RiverDesert, RiverEnchantedForest, RiverEnder, RiverForest, RiverForestConifer, RiverHaunted, RiverRocky, RiverRoofedForest, RiverSandy, RiverSavanna, RiverSteppe, RiverSwampland, RiverTaiga, RiverTropical, RiverTundra, RiverWetland, FloatingHole
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 12
 
 
 #######################################################################

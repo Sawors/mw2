@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 8
 
 BiomeRarity: 50
 
@@ -28,11 +28,11 @@ ReplaceToBiomeName: minecraft:extreme_hills
 # Isle biomes only #
 ####################
 
-IsleInBiome: Ocean
+IsleInBiome: Ocean, Deep Ocean
 
-BiomeSizeWhenIsle: 4
+BiomeSizeWhenIsle: 8
 
-BiomeRarityWhenIsle: 8
+BiomeRarityWhenIsle: 10
 
 ######################
 # Border biomes only #
@@ -42,7 +42,7 @@ BiomeIsBorder:
 
 NotBorderNear: 
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################

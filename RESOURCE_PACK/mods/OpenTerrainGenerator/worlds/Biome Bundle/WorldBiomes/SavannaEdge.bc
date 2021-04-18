@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 9
 
 BiomeRarity: 100
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName:
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 9
 
 BiomeRarityWhenIsle: 100
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Desert, Savanna, DesertFlats, SavannaSmall
 
 NotBorderNear: Savanna Plateau, DesertSmall, RiverTropical, DrySavanna, DesertOasis, DesertMountain, Ocean, Beach, SavannaHills, Savanna M, DesertBaobabs
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 9
 
 
 #######################################################################

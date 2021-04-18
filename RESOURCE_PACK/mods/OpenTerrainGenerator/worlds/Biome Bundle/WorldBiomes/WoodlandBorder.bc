@@ -16,7 +16,7 @@ ResourceInheritance: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeSize: 5
+BiomeSize: 10
 
 BiomeRarity: 98
 
@@ -30,7 +30,7 @@ ReplaceToBiomeName: minecraft:forest
 
 IsleInBiome: 
 
-BiomeSizeWhenIsle: 5
+BiomeSizeWhenIsle: 10
 
 BiomeRarityWhenIsle: 98
 
@@ -42,7 +42,7 @@ BiomeIsBorder: Highlands, TemperateLonePeak, RockyMountains
 
 NotBorderNear: TemperateHills, Ocean Island, ForestMountainRange, ForestMountain, TropicalPillars, TemperatePlainsM, RockyMountainPeak1, RockyMountainPeak2, ForestPlateau, Rocks, ForestPeak, ForestBaldCypressSmall, ForestPlateauThicket
 
-BiomeSizeWhenBorder: 5
+BiomeSizeWhenBorder: 10
 
 
 #######################################################################
