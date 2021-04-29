@@ -1,6 +1,5 @@
 {
 	"credit": "Made by Sawors",
-	"ambientocclusion": false,
 	"textures": {
 		"0": "blocks/cactus_top",
 		"1": "blocks/cactus_side",

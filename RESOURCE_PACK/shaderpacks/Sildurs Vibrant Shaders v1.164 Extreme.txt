@@ -1,4 +1,4 @@
-#Wed Apr 07 14:32:15 CEST 2021
+#Sun Apr 25 17:55:46 CEST 2021
 Colorboost=0.04
 Dof_Distance_View=512
 DoF_Strength=60
@@ -7,9 +7,10 @@ MB_strength=0.008
 Moonlight=0.0
 Moonshading=false
 POM=true
-uFogDensity=20.0
+POM_RES=16
+Waving_Entities=false
 Waving_Fire=false
+Waving_Grass=false
 Waving_Lava=false
 Waving_Vines=false
 Waving_Water=false
-wFogDensity=50.0

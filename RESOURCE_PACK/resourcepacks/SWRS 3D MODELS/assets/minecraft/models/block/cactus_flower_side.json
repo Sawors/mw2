@@ -1,7 +1,6 @@
 {
 	"credit": "Made by Sawors",
 	"parent": "minecraft:block/cactus",
-	"ambientocclusion": false,
 	"textures": {
 		"0": "blocks/cactus_top",
 		"1": "blocks/cactus_side",
